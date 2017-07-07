@@ -1,0 +1,884 @@
+2017-05-31 16:43:47 [INFO ] [org.hibernate.validator.internal.util.Version.<clinit>:30] |HV000001: Hibernate Validator 5.2.4.Final
+2017-05-31 16:43:52 [INFO ] [com.qbao.pay.notify.NotifyApplication.logStarting:48] |Starting NotifyApplication on MacBook-Pro.local with PID 1546 (/Users/zouchanglong/Documents/dev_work/async_notify_20170531/target/classes started by zouchanglong in /Users/zouchanglong/Documents/dev_work/async_notify_20170531)
+2017-05-31 16:43:52 [INFO ] [com.qbao.pay.notify.NotifyApplication.logStartupProfileInfo:659] |No active profile set, falling back to default profiles: default
+2017-05-31 16:43:53 [WARN ] [org.mybatis.spring.mapper.ClassPathMapperScanner.doScan:167] |No MyBatis mapper was found in '[com.qbao.pay.notify]' package. Please check your configuration.
+2017-05-31 16:43:54 [INFO ] [org.eclipse.jetty.util.log.initialized:192] |Logging initialized @28003ms
+2017-05-31 16:43:54 [INFO ] [org.eclipse.jetty.server.Server.doStart:345] |jetty-9.3.11.v20160721
+2017-05-31 16:43:54 [INFO ] [application.log:2165] |Initializing Spring embedded WebApplicationContext
+2017-05-31 16:43:55 [INFO ] [org.eclipse.jetty.server.handler.ContextHandler.doStart:781] |Started o.s.b.c.e.j.JettyEmbeddedWebAppContext@26463a6{/,file:///Users/zouchanglong/Documents/dev_work/async_notify_20170531/src/main/webapp/,AVAILABLE}
+2017-05-31 16:43:55 [INFO ] [org.eclipse.jetty.server.Server.doStart:403] |Started @28731ms
+2017-05-31 16:43:55 [INFO ] [com.alibaba.druid.pool.DruidDataSource.init:638] |{dataSource-1} inited
+2017-05-31 16:43:58 [INFO ] [application.log:2165] |Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-05-31 16:43:58 [INFO ] [org.eclipse.jetty.server.AbstractConnector.doStart:270] |Started ServerConnector@8dedec8{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+2017-05-31 16:43:58 [INFO ] [com.qbao.pay.notify.NotifyApplication.logStarted:57] |Started NotifyApplication in 26.386 seconds (JVM running for 31.89)
+2017-05-31 16:52:06 [INFO ] [org.hibernate.validator.internal.util.Version.<clinit>:30] |HV000001: Hibernate Validator 5.2.4.Final
+2017-05-31 16:52:11 [INFO ] [com.qbao.pay.notify.NotifyApplication.logStarting:48] |Starting NotifyApplication on MacBook-Pro.local with PID 1568 (/Users/zouchanglong/Documents/dev_work/async_notify_20170531/target/classes started by zouchanglong in /Users/zouchanglong/Documents/dev_work/async_notify_20170531)
+2017-05-31 16:52:11 [INFO ] [com.qbao.pay.notify.NotifyApplication.logStartupProfileInfo:659] |No active profile set, falling back to default profiles: default
+2017-05-31 16:52:12 [WARN ] [org.mybatis.spring.mapper.ClassPathMapperScanner.doScan:167] |No MyBatis mapper was found in '[com.qbao.pay.notify]' package. Please check your configuration.
+2017-05-31 16:52:13 [INFO ] [org.eclipse.jetty.util.log.initialized:192] |Logging initialized @27438ms
+2017-05-31 16:52:13 [INFO ] [org.eclipse.jetty.server.Server.doStart:345] |jetty-9.3.11.v20160721
+2017-05-31 16:52:13 [INFO ] [application.log:2165] |Initializing Spring embedded WebApplicationContext
+2017-05-31 16:52:14 [INFO ] [org.eclipse.jetty.server.handler.ContextHandler.doStart:781] |Started o.s.b.c.e.j.JettyEmbeddedWebAppContext@2c1f8dbd{/,file:///Users/zouchanglong/Documents/dev_work/async_notify_20170531/src/main/webapp/,AVAILABLE}
+2017-05-31 16:52:14 [INFO ] [org.eclipse.jetty.server.Server.doStart:403] |Started @27926ms
+2017-05-31 16:52:14 [INFO ] [com.alibaba.druid.pool.DruidDataSource.init:638] |{dataSource-1} inited
+2017-05-31 16:52:16 [INFO ] [application.log:2165] |Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-05-31 16:52:16 [INFO ] [org.eclipse.jetty.server.AbstractConnector.doStart:270] |Started ServerConnector@252c6cdb{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+2017-05-31 16:52:16 [INFO ] [com.qbao.pay.notify.NotifyApplication.logStarted:57] |Started NotifyApplication in 24.682 seconds (JVM running for 30.096)
+2017-05-31 16:54:47 [INFO ] [com.alibaba.druid.pool.DruidDataSource.close:1288] |{dataSource-1} closed
+2017-05-31 16:54:47 [INFO ] [org.eclipse.jetty.server.AbstractConnector.doStop:310] |Stopped ServerConnector@252c6cdb{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+2017-05-31 16:54:47 [INFO ] [application.log:2165] |Destroying Spring FrameworkServlet 'dispatcherServlet'
+2017-05-31 16:54:47 [INFO ] [org.eclipse.jetty.server.handler.ContextHandler.doStop:910] |Stopped o.s.b.c.e.j.JettyEmbeddedWebAppContext@2c1f8dbd{/,file:///Users/zouchanglong/Documents/dev_work/async_notify_20170531/src/main/webapp/,UNAVAILABLE}
+2017-05-31 16:55:22 [INFO ] [org.hibernate.validator.internal.util.Version.<clinit>:30] |HV000001: Hibernate Validator 5.2.4.Final
+2017-05-31 16:55:27 [INFO ] [com.qbao.pay.notify.NotifyApplication.logStarting:48] |Starting NotifyApplication on MacBook-Pro.local with PID 1572 (/Users/zouchanglong/Documents/dev_work/async_notify_20170531/target/classes started by zouchanglong in /Users/zouchanglong/Documents/dev_work/async_notify_20170531)
+2017-05-31 16:55:27 [INFO ] [com.qbao.pay.notify.NotifyApplication.logStartupProfileInfo:659] |No active profile set, falling back to default profiles: default
+2017-05-31 16:55:28 [WARN ] [org.mybatis.spring.mapper.ClassPathMapperScanner.doScan:167] |No MyBatis mapper was found in '[com.qbao.pay.notify]' package. Please check your configuration.
+2017-05-31 16:55:28 [INFO ] [org.eclipse.jetty.util.log.initialized:192] |Logging initialized @27709ms
+2017-05-31 16:55:28 [INFO ] [org.eclipse.jetty.server.Server.doStart:345] |jetty-9.3.11.v20160721
+2017-05-31 16:55:29 [INFO ] [application.log:2165] |Initializing Spring embedded WebApplicationContext
+2017-05-31 16:55:29 [INFO ] [org.eclipse.jetty.server.handler.ContextHandler.doStart:781] |Started o.s.b.c.e.j.JettyEmbeddedWebAppContext@6c5ae8fd{/,file:///Users/zouchanglong/Documents/dev_work/async_notify_20170531/src/main/webapp/,AVAILABLE}
+2017-05-31 16:55:29 [INFO ] [org.eclipse.jetty.server.Server.doStart:403] |Started @28322ms
+2017-05-31 16:55:30 [INFO ] [com.alibaba.druid.pool.DruidDataSource.init:638] |{dataSource-1} inited
+2017-05-31 16:55:32 [INFO ] [application.log:2165] |Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-05-31 16:55:32 [INFO ] [org.eclipse.jetty.server.AbstractConnector.doStart:270] |Started ServerConnector@8dedec8{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+2017-05-31 16:55:32 [INFO ] [com.qbao.pay.notify.NotifyApplication.logStarted:57] |Started NotifyApplication in 25.756 seconds (JVM running for 31.263)
+2017-05-31 16:57:24 [INFO ] [com.qbao.pay.notify.listener.AsyncNotifyCallbackListener.asyncNotifyListener:55] |异步回调MQ消息内容：(Body:'[B@5a60fc44(byte[12])' MessageProperties [headers={}, timestamp=null, messageId=null, userId=null, receivedUserId=null, appId=null, clusterId=null, type=null, correlationId=null, correlationIdString=null, replyTo=null, contentType=null, contentEncoding=null, contentLength=0, deliveryMode=null, receivedDeliveryMode=NON_PERSISTENT, expiration=null, priority=null, redelivered=false, receivedExchange=trade.async.callback.exchange, receivedRoutingKey=, receivedDelay=null, deliveryTag=1, messageCount=0, consumerTag=amq.ctag-HaJBcs3AgLRcZE3e4G8VeA, consumerQueue=trade.async.callback.queue])
+2017-05-31 16:59:17 [INFO ] [org.hibernate.validator.internal.util.Version.<clinit>:30] |HV000001: Hibernate Validator 5.2.4.Final
+2017-05-31 16:59:22 [INFO ] [com.qbao.pay.notify.NotifyApplication.logStarting:48] |Starting NotifyApplication on MacBook-Pro.local with PID 1574 (/Users/zouchanglong/Documents/dev_work/async_notify_20170531/target/classes started by zouchanglong in /Users/zouchanglong/Documents/dev_work/async_notify_20170531)
+2017-05-31 16:59:22 [INFO ] [com.qbao.pay.notify.NotifyApplication.logStartupProfileInfo:659] |No active profile set, falling back to default profiles: default
+2017-05-31 16:59:23 [WARN ] [org.mybatis.spring.mapper.ClassPathMapperScanner.doScan:167] |No MyBatis mapper was found in '[com.qbao.pay.notify]' package. Please check your configuration.
+2017-05-31 16:59:24 [INFO ] [org.eclipse.jetty.util.log.initialized:192] |Logging initialized @27767ms
+2017-05-31 16:59:24 [INFO ] [org.eclipse.jetty.server.Server.doStart:345] |jetty-9.3.11.v20160721
+2017-05-31 16:59:25 [INFO ] [application.log:2165] |Initializing Spring embedded WebApplicationContext
+2017-05-31 16:59:25 [INFO ] [org.eclipse.jetty.server.handler.ContextHandler.doStart:781] |Started o.s.b.c.e.j.JettyEmbeddedWebAppContext@3b5da0b0{/,file:///Users/zouchanglong/Documents/dev_work/async_notify_20170531/src/main/webapp/,AVAILABLE}
+2017-05-31 16:59:25 [INFO ] [org.eclipse.jetty.server.Server.doStart:403] |Started @28385ms
+2017-05-31 16:59:25 [INFO ] [com.alibaba.druid.pool.DruidDataSource.init:638] |{dataSource-1} inited
+2017-05-31 16:59:28 [INFO ] [application.log:2165] |Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-05-31 16:59:28 [INFO ] [org.eclipse.jetty.server.AbstractConnector.doStart:270] |Started ServerConnector@6bd18f{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+2017-05-31 16:59:28 [INFO ] [com.qbao.pay.notify.NotifyApplication.logStarted:57] |Started NotifyApplication in 25.894 seconds (JVM running for 31.391)
+2017-05-31 16:59:37 [INFO ] [com.qbao.pay.notify.listener.AsyncNotifyCallbackListener.asyncNotifyListener:55] |异步回调MQ消息内容：(Body:'[B@39b534ed(byte[12])' MessageProperties [headers={}, timestamp=null, messageId=null, userId=null, receivedUserId=null, appId=null, clusterId=null, type=null, correlationId=null, correlationIdString=null, replyTo=null, contentType=null, contentEncoding=null, contentLength=0, deliveryMode=null, receivedDeliveryMode=NON_PERSISTENT, expiration=null, priority=null, redelivered=false, receivedExchange=trade.async.callback.exchange, receivedRoutingKey=, receivedDelay=null, deliveryTag=1, messageCount=0, consumerTag=amq.ctag-I0Ad8rpQY1lnSD2yd87UPw, consumerQueue=trade.async.callback.queue])
+2017-05-31 17:00:00 [INFO ] [com.qbao.pay.notify.task.NotifyAutoPushTask.asyncNotifyPush:33] |异步回调失败推送定时任务 start...
+2017-05-31 17:06:24 [INFO ] [com.qbao.pay.notify.listener.AsyncNotifyCallbackListener.asyncNotifyListener:55] |异步回调MQ消息内容：(Body:'[B@4fae9d3e(byte[0])' MessageProperties [headers={}, timestamp=null, messageId=null, userId=null, receivedUserId=null, appId=null, clusterId=null, type=null, correlationId=null, correlationIdString=null, replyTo=null, contentType=application/octet-stream, contentEncoding=null, contentLength=0, deliveryMode=null, receivedDeliveryMode=PERSISTENT, expiration=null, priority=0, redelivered=false, receivedExchange=, receivedRoutingKey=trade.async.callback.queue, receivedDelay=null, deliveryTag=2, messageCount=0, consumerTag=amq.ctag-I0Ad8rpQY1lnSD2yd87UPw, consumerQueue=trade.async.callback.queue])
+2017-05-31 17:07:35 [INFO ] [com.qbao.pay.notify.listener.AsyncNotifyCallbackListener.asyncNotifyListener:55] |异步回调MQ消息内容：(Body:'[B@4fae9d3e(byte[0])' MessageProperties [headers={}, timestamp=null, messageId=null, userId=null, receivedUserId=null, appId=null, clusterId=null, type=null, correlationId=null, correlationIdString=null, replyTo=null, contentType=application/octet-stream, contentEncoding=null, contentLength=0, deliveryMode=null, receivedDeliveryMode=PERSISTENT, expiration=null, priority=0, redelivered=false, receivedExchange=, receivedRoutingKey=trade.async.callback.queue, receivedDelay=null, deliveryTag=3, messageCount=0, consumerTag=amq.ctag-I0Ad8rpQY1lnSD2yd87UPw, consumerQueue=trade.async.callback.queue])
+2017-05-31 17:15:10 [INFO ] [com.qbao.pay.notify.listener.AsyncNotifyCallbackListener.asyncNotifyListener:55] |异步回调MQ消息内容：(Body:'[B@5facca7a(byte[3])' MessageProperties [headers={}, timestamp=null, messageId=null, userId=null, receivedUserId=null, appId=null, clusterId=null, type=null, correlationId=null, correlationIdString=null, replyTo=null, contentType=null, contentEncoding=null, contentLength=0, deliveryMode=null, receivedDeliveryMode=NON_PERSISTENT, expiration=null, priority=null, redelivered=false, receivedExchange=trade.async.callback.exchange, receivedRoutingKey=, receivedDelay=null, deliveryTag=4, messageCount=0, consumerTag=amq.ctag-I0Ad8rpQY1lnSD2yd87UPw, consumerQueue=trade.async.callback.queue])
+2017-05-31 17:17:10 [INFO ] [com.qbao.pay.notify.listener.AsyncNotifyCallbackListener.asyncNotifyListener:55] |异步回调MQ消息内容：(Body:'[B@6b7bdd90(byte[3])' MessageProperties [headers={}, timestamp=null, messageId=null, userId=null, receivedUserId=null, appId=null, clusterId=null, type=null, correlationId=null, correlationIdString=null, replyTo=null, contentType=null, contentEncoding=null, contentLength=0, deliveryMode=null, receivedDeliveryMode=NON_PERSISTENT, expiration=null, priority=null, redelivered=false, receivedExchange=trade.async.callback.exchange, receivedRoutingKey=, receivedDelay=null, deliveryTag=5, messageCount=0, consumerTag=amq.ctag-I0Ad8rpQY1lnSD2yd87UPw, consumerQueue=trade.async.callback.queue])
+2017-05-31 17:32:18 [INFO ] [org.hibernate.validator.internal.util.Version.<clinit>:30] |HV000001: Hibernate Validator 5.2.4.Final
+2017-05-31 17:32:23 [INFO ] [com.qbao.pay.notify.NotifyApplication.logStarting:48] |Starting NotifyApplication on MacBook-Pro.local with PID 1645 (/Users/zouchanglong/Documents/dev_work/async_notify_20170531/target/classes started by zouchanglong in /Users/zouchanglong/Documents/dev_work/async_notify_20170531)
+2017-05-31 17:32:23 [INFO ] [com.qbao.pay.notify.NotifyApplication.logStartupProfileInfo:659] |No active profile set, falling back to default profiles: default
+2017-05-31 17:32:24 [WARN ] [org.mybatis.spring.mapper.ClassPathMapperScanner.doScan:167] |No MyBatis mapper was found in '[com.qbao.pay.notify]' package. Please check your configuration.
+2017-05-31 17:32:25 [INFO ] [org.eclipse.jetty.util.log.initialized:192] |Logging initialized @27414ms
+2017-05-31 17:32:25 [INFO ] [org.eclipse.jetty.server.Server.doStart:345] |jetty-9.3.11.v20160721
+2017-05-31 17:32:25 [INFO ] [application.log:2165] |Initializing Spring embedded WebApplicationContext
+2017-05-31 17:32:25 [INFO ] [org.eclipse.jetty.server.handler.ContextHandler.doStart:781] |Started o.s.b.c.e.j.JettyEmbeddedWebAppContext@2c1f8dbd{/,file:///Users/zouchanglong/Documents/dev_work/async_notify_20170531/src/main/webapp/,AVAILABLE}
+2017-05-31 17:32:25 [INFO ] [org.eclipse.jetty.server.Server.doStart:403] |Started @27879ms
+2017-05-31 17:32:25 [INFO ] [com.alibaba.druid.pool.DruidDataSource.init:638] |{dataSource-1} inited
+2017-05-31 17:32:27 [INFO ] [com.qbao.pay.notify.listener.AsyncNotifyCallbackListener.asyncNotifyListener:55] |异步回调MQ消息内容：(Body:'[B@5eff8e08(byte[3])' MessageProperties [headers={}, timestamp=null, messageId=null, userId=null, receivedUserId=null, appId=null, clusterId=null, type=null, correlationId=null, correlationIdString=null, replyTo=null, contentType=null, contentEncoding=null, contentLength=0, deliveryMode=null, receivedDeliveryMode=NON_PERSISTENT, expiration=null, priority=null, redelivered=true, receivedExchange=trade.async.callback.exchange, receivedRoutingKey=, receivedDelay=null, deliveryTag=1, messageCount=0, consumerTag=amq.ctag-wBDRGo6r6zT_-N91Qb2QoA, consumerQueue=trade.async.callback.queue])
+2017-05-31 17:32:27 [INFO ] [application.log:2165] |Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-05-31 17:32:27 [INFO ] [com.qbao.pay.notify.listener.AsyncNotifyCallbackListener.asyncNotifyListener:55] |异步回调MQ消息内容：(Body:'[B@6feb2497(byte[0])' MessageProperties [headers={}, timestamp=null, messageId=null, userId=null, receivedUserId=null, appId=null, clusterId=null, type=null, correlationId=null, correlationIdString=null, replyTo=null, contentType=application/octet-stream, contentEncoding=null, contentLength=0, deliveryMode=null, receivedDeliveryMode=PERSISTENT, expiration=null, priority=0, redelivered=true, receivedExchange=, receivedRoutingKey=trade.async.callback.queue, receivedDelay=null, deliveryTag=2, messageCount=0, consumerTag=amq.ctag-wBDRGo6r6zT_-N91Qb2QoA, consumerQueue=trade.async.callback.queue])
+2017-05-31 17:32:27 [INFO ] [com.qbao.pay.notify.listener.AsyncNotifyCallbackListener.asyncNotifyListener:55] |异步回调MQ消息内容：(Body:'[B@6feb2497(byte[0])' MessageProperties [headers={}, timestamp=null, messageId=null, userId=null, receivedUserId=null, appId=null, clusterId=null, type=null, correlationId=null, correlationIdString=null, replyTo=null, contentType=application/octet-stream, contentEncoding=null, contentLength=0, deliveryMode=null, receivedDeliveryMode=PERSISTENT, expiration=null, priority=0, redelivered=true, receivedExchange=trade.async.callback.exchange, receivedRoutingKey=, receivedDelay=null, deliveryTag=3, messageCount=0, consumerTag=amq.ctag-wBDRGo6r6zT_-N91Qb2QoA, consumerQueue=trade.async.callback.queue])
+2017-05-31 17:32:27 [INFO ] [org.eclipse.jetty.server.AbstractConnector.doStart:270] |Started ServerConnector@252c6cdb{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+2017-05-31 17:32:27 [INFO ] [com.qbao.pay.notify.listener.AsyncNotifyCallbackListener.asyncNotifyListener:55] |异步回调MQ消息内容：(Body:'1111' MessageProperties [headers={}, timestamp=null, messageId=null, userId=null, receivedUserId=null, appId=null, clusterId=null, type=null, correlationId=null, correlationIdString=null, replyTo=null, contentType=application/x-java-serialized-object, contentEncoding=null, contentLength=0, deliveryMode=null, receivedDeliveryMode=PERSISTENT, expiration=null, priority=0, redelivered=true, receivedExchange=trade.async.callback.exchange, receivedRoutingKey=, receivedDelay=null, deliveryTag=4, messageCount=0, consumerTag=amq.ctag-wBDRGo6r6zT_-N91Qb2QoA, consumerQueue=trade.async.callback.queue])
+2017-05-31 17:32:27 [INFO ] [com.qbao.pay.notify.NotifyApplication.logStarted:57] |Started NotifyApplication in 24.656 seconds (JVM running for 30.08)
+2017-05-31 17:32:27 [INFO ] [com.qbao.pay.notify.listener.AsyncNotifyCallbackListener.asyncNotifyListener:55] |异步回调MQ消息内容：(Body:'sssss' MessageProperties [headers={}, timestamp=null, messageId=null, userId=null, receivedUserId=null, appId=null, clusterId=null, type=null, correlationId=null, correlationIdString=null, replyTo=null, contentType=text/plain, contentEncoding=UTF-8, contentLength=0, deliveryMode=null, receivedDeliveryMode=PERSISTENT, expiration=null, priority=0, redelivered=true, receivedExchange=trade.async.callback.exchange, receivedRoutingKey=, receivedDelay=null, deliveryTag=5, messageCount=0, consumerTag=amq.ctag-wBDRGo6r6zT_-N91Qb2QoA, consumerQueue=trade.async.callback.queue])
+2017-05-31 17:32:33 [INFO ] [com.qbao.pay.notify.listener.AsyncNotifyCallbackListener.asyncNotifyListener:55] |异步回调MQ消息内容：(Body:'[B@6feb2497(byte[0])' MessageProperties [headers={}, timestamp=null, messageId=null, userId=null, receivedUserId=null, appId=null, clusterId=null, type=null, correlationId=null, correlationIdString=null, replyTo=null, contentType=application/octet-stream, contentEncoding=null, contentLength=0, deliveryMode=null, receivedDeliveryMode=PERSISTENT, expiration=null, priority=0, redelivered=false, receivedExchange=trade.async.callback.exchange, receivedRoutingKey=, receivedDelay=null, deliveryTag=6, messageCount=0, consumerTag=amq.ctag-wBDRGo6r6zT_-N91Qb2QoA, consumerQueue=trade.async.callback.queue])
+2017-05-31 17:33:29 [INFO ] [com.qbao.pay.notify.listener.AsyncNotifyCallbackListener.asyncNotifyListener:55] |异步回调MQ消息内容：(Body:'[B@6feb2497(byte[0])' MessageProperties [headers={}, timestamp=null, messageId=null, userId=null, receivedUserId=null, appId=null, clusterId=null, type=null, correlationId=null, correlationIdString=null, replyTo=null, contentType=application/octet-stream, contentEncoding=null, contentLength=0, deliveryMode=null, receivedDeliveryMode=PERSISTENT, expiration=null, priority=0, redelivered=false, receivedExchange=trade.async.callback.exchange, receivedRoutingKey=, receivedDelay=null, deliveryTag=7, messageCount=0, consumerTag=amq.ctag-wBDRGo6r6zT_-N91Qb2QoA, consumerQueue=trade.async.callback.queue])
+2017-05-31 17:37:39 [INFO ] [com.qbao.pay.notify.listener.AsyncNotifyCallbackListener.asyncNotifyListener:55] |异步回调MQ消息内容：(Body:'[B@6feb2497(byte[0])' MessageProperties [headers={}, timestamp=null, messageId=null, userId=null, receivedUserId=null, appId=null, clusterId=null, type=null, correlationId=null, correlationIdString=null, replyTo=null, contentType=application/octet-stream, contentEncoding=null, contentLength=0, deliveryMode=null, receivedDeliveryMode=PERSISTENT, expiration=null, priority=0, redelivered=false, receivedExchange=trade.async.callback.exchange, receivedRoutingKey=, receivedDelay=null, deliveryTag=8, messageCount=0, consumerTag=amq.ctag-wBDRGo6r6zT_-N91Qb2QoA, consumerQueue=trade.async.callback.queue])
+2017-05-31 17:38:44 [INFO ] [com.qbao.pay.notify.listener.AsyncNotifyCallbackListener.asyncNotifyListener:55] |异步回调MQ消息内容：(Body:'{"notifyUrl":"www.baidu.com","outTradeNo":"11111","result":"test"}' MessageProperties [headers={}, timestamp=null, messageId=null, userId=null, receivedUserId=null, appId=null, clusterId=null, type=null, correlationId=null, correlationIdString=null, replyTo=null, contentType=text/plain, contentEncoding=UTF-8, contentLength=0, deliveryMode=null, receivedDeliveryMode=PERSISTENT, expiration=null, priority=0, redelivered=false, receivedExchange=trade.async.callback.exchange, receivedRoutingKey=, receivedDelay=null, deliveryTag=9, messageCount=0, consumerTag=amq.ctag-wBDRGo6r6zT_-N91Qb2QoA, consumerQueue=trade.async.callback.queue])
+2017-05-31 17:39:26 [INFO ] [com.qbao.pay.notify.listener.AsyncNotifyCallbackListener.asyncNotifyListener:55] |异步回调MQ消息内容：(Body:'{"notifyUrl":"www.baidu.com","outTradeNo":"11111","result":"test"}' MessageProperties [headers={}, timestamp=null, messageId=null, userId=null, receivedUserId=null, appId=null, clusterId=null, type=null, correlationId=null, correlationIdString=null, replyTo=null, contentType=text/plain, contentEncoding=UTF-8, contentLength=0, deliveryMode=null, receivedDeliveryMode=PERSISTENT, expiration=null, priority=0, redelivered=false, receivedExchange=trade.async.callback.exchange, receivedRoutingKey=, receivedDelay=null, deliveryTag=10, messageCount=0, consumerTag=amq.ctag-wBDRGo6r6zT_-N91Qb2QoA, consumerQueue=trade.async.callback.queue])
+2017-05-31 17:39:59 [INFO ] [com.qbao.pay.notify.task.NotifyAutoPushTask.asyncNotifyPush:33] |异步回调失败推送定时任务 start...
+2017-05-31 17:47:55 [INFO ] [com.alibaba.druid.pool.DruidDataSource.close:1288] |{dataSource-1} closed
+2017-05-31 17:47:55 [INFO ] [org.eclipse.jetty.server.AbstractConnector.doStop:310] |Stopped ServerConnector@252c6cdb{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+2017-05-31 17:47:55 [INFO ] [application.log:2165] |Destroying Spring FrameworkServlet 'dispatcherServlet'
+2017-05-31 17:47:55 [INFO ] [org.eclipse.jetty.server.handler.ContextHandler.doStop:910] |Stopped o.s.b.c.e.j.JettyEmbeddedWebAppContext@2c1f8dbd{/,file:///Users/zouchanglong/Documents/dev_work/async_notify_20170531/src/main/webapp/,UNAVAILABLE}
+2017-05-31 18:06:38 [INFO ] [org.hibernate.validator.internal.util.Version.<clinit>:30] |HV000001: Hibernate Validator 5.2.4.Final
+2017-05-31 18:06:43 [INFO ] [com.qbao.pay.notify.NotifyApplication.logStarting:48] |Starting NotifyApplication on MacBook-Pro.local with PID 1662 (/Users/zouchanglong/Documents/dev_work/async_notify_20170531/target/classes started by zouchanglong in /Users/zouchanglong/Documents/dev_work/async_notify_20170531)
+2017-05-31 18:06:43 [INFO ] [com.qbao.pay.notify.NotifyApplication.logStartupProfileInfo:659] |No active profile set, falling back to default profiles: default
+2017-05-31 18:06:44 [WARN ] [org.mybatis.spring.mapper.ClassPathMapperScanner.doScan:167] |No MyBatis mapper was found in '[com.qbao.pay.notify]' package. Please check your configuration.
+2017-05-31 18:06:45 [INFO ] [org.eclipse.jetty.util.log.initialized:192] |Logging initialized @27694ms
+2017-05-31 18:06:45 [INFO ] [org.eclipse.jetty.server.Server.doStart:345] |jetty-9.3.11.v20160721
+2017-05-31 18:06:45 [INFO ] [application.log:2165] |Initializing Spring embedded WebApplicationContext
+2017-05-31 18:06:45 [INFO ] [org.eclipse.jetty.server.handler.ContextHandler.doStart:781] |Started o.s.b.c.e.j.JettyEmbeddedWebAppContext@2c1f8dbd{/,file:///Users/zouchanglong/Documents/dev_work/async_notify_20170531/src/main/webapp/,AVAILABLE}
+2017-05-31 18:06:45 [INFO ] [org.eclipse.jetty.server.Server.doStart:403] |Started @28229ms
+2017-05-31 18:06:46 [INFO ] [com.alibaba.druid.pool.DruidDataSource.init:638] |{dataSource-1} inited
+2017-05-31 18:06:48 [INFO ] [application.log:2165] |Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-05-31 18:06:48 [INFO ] [org.eclipse.jetty.server.AbstractConnector.doStart:270] |Started ServerConnector@252c6cdb{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+2017-05-31 18:06:48 [INFO ] [com.qbao.pay.notify.NotifyApplication.logStarted:57] |Started NotifyApplication in 25.027 seconds (JVM running for 30.521)
+2017-05-31 18:08:44 [INFO ] [com.alibaba.druid.pool.DruidDataSource.close:1288] |{dataSource-1} closed
+2017-05-31 18:08:44 [INFO ] [org.eclipse.jetty.server.AbstractConnector.doStop:310] |Stopped ServerConnector@252c6cdb{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+2017-05-31 18:08:44 [INFO ] [application.log:2165] |Destroying Spring FrameworkServlet 'dispatcherServlet'
+2017-05-31 18:08:44 [INFO ] [org.eclipse.jetty.server.handler.ContextHandler.doStop:910] |Stopped o.s.b.c.e.j.JettyEmbeddedWebAppContext@2c1f8dbd{/,file:///Users/zouchanglong/Documents/dev_work/async_notify_20170531/src/main/webapp/,UNAVAILABLE}
+2017-05-31 18:09:14 [INFO ] [org.hibernate.validator.internal.util.Version.<clinit>:30] |HV000001: Hibernate Validator 5.2.4.Final
+2017-05-31 18:09:19 [INFO ] [com.qbao.pay.notify.NotifyApplication.logStarting:48] |Starting NotifyApplication on MacBook-Pro.local with PID 1666 (/Users/zouchanglong/Documents/dev_work/async_notify_20170531/target/classes started by zouchanglong in /Users/zouchanglong/Documents/dev_work/async_notify_20170531)
+2017-05-31 18:09:19 [INFO ] [com.qbao.pay.notify.NotifyApplication.logStartupProfileInfo:659] |No active profile set, falling back to default profiles: default
+2017-05-31 18:09:20 [WARN ] [org.mybatis.spring.mapper.ClassPathMapperScanner.doScan:167] |No MyBatis mapper was found in '[com.qbao.pay.notify]' package. Please check your configuration.
+2017-05-31 18:09:21 [INFO ] [org.eclipse.jetty.util.log.initialized:192] |Logging initialized @27974ms
+2017-05-31 18:09:21 [INFO ] [org.eclipse.jetty.server.Server.doStart:345] |jetty-9.3.11.v20160721
+2017-05-31 18:09:21 [INFO ] [application.log:2165] |Initializing Spring embedded WebApplicationContext
+2017-05-31 18:09:21 [INFO ] [org.eclipse.jetty.server.handler.ContextHandler.doStart:781] |Started o.s.b.c.e.j.JettyEmbeddedWebAppContext@1aed6f0b{/,file:///Users/zouchanglong/Documents/dev_work/async_notify_20170531/src/main/webapp/,AVAILABLE}
+2017-05-31 18:09:21 [INFO ] [org.eclipse.jetty.server.Server.doStart:403] |Started @28644ms
+2017-05-31 18:09:22 [INFO ] [com.alibaba.druid.pool.DruidDataSource.init:638] |{dataSource-1} inited
+2017-05-31 18:09:24 [INFO ] [application.log:2165] |Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-05-31 18:09:24 [INFO ] [org.eclipse.jetty.server.AbstractConnector.doStart:270] |Started ServerConnector@8dedec8{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+2017-05-31 18:09:24 [INFO ] [com.qbao.pay.notify.NotifyApplication.logStarted:57] |Started NotifyApplication in 26.181 seconds (JVM running for 31.67)
+2017-05-31 18:10:53 [INFO ] [org.hibernate.validator.internal.util.Version.<clinit>:30] |HV000001: Hibernate Validator 5.2.4.Final
+2017-05-31 18:10:58 [INFO ] [com.qbao.pay.notify.NotifyApplication.logStarting:48] |Starting NotifyApplication on MacBook-Pro.local with PID 1667 (/Users/zouchanglong/Documents/dev_work/async_notify_20170531/target/classes started by zouchanglong in /Users/zouchanglong/Documents/dev_work/async_notify_20170531)
+2017-05-31 18:10:58 [INFO ] [com.qbao.pay.notify.NotifyApplication.logStartupProfileInfo:659] |No active profile set, falling back to default profiles: default
+2017-05-31 18:10:59 [WARN ] [org.mybatis.spring.mapper.ClassPathMapperScanner.doScan:167] |No MyBatis mapper was found in '[com.qbao.pay.notify]' package. Please check your configuration.
+2017-05-31 18:11:00 [INFO ] [org.eclipse.jetty.util.log.initialized:192] |Logging initialized @27759ms
+2017-05-31 18:11:00 [INFO ] [org.eclipse.jetty.server.Server.doStart:345] |jetty-9.3.11.v20160721
+2017-05-31 18:11:00 [INFO ] [application.log:2165] |Initializing Spring embedded WebApplicationContext
+2017-05-31 18:11:01 [INFO ] [org.eclipse.jetty.server.handler.ContextHandler.doStart:781] |Started o.s.b.c.e.j.JettyEmbeddedWebAppContext@283d3628{/,file:///Users/zouchanglong/Documents/dev_work/async_notify_20170531/src/main/webapp/,AVAILABLE}
+2017-05-31 18:11:01 [INFO ] [org.eclipse.jetty.server.Server.doStart:403] |Started @28412ms
+2017-05-31 18:11:01 [INFO ] [com.alibaba.druid.pool.DruidDataSource.init:638] |{dataSource-1} inited
+2017-05-31 18:11:03 [INFO ] [com.qbao.pay.notify.listener.AsyncNotifyCallbackListener.asyncNotifyListener:56] |异步回调MQ消息内容：(Body:'{"outTradeNo":1122009987,"notifyUrl":"http://192.168.1.8:8080/acturl.html","result":{"creator":"admin","email":"9123344569@qq.com","gmtCreated":"1490760835000"}}' MessageProperties [headers={}, timestamp=null, messageId=null, userId=null, receivedUserId=null, appId=null, clusterId=null, type=null, correlationId=null, correlationIdString=null, replyTo=null, contentType=text/plain, contentEncoding=UTF-8, contentLength=0, deliveryMode=null, receivedDeliveryMode=PERSISTENT, expiration=null, priority=0, redelivered=false, receivedExchange=smt.exchange.test, receivedRoutingKey=smt.item.queue.test, receivedDelay=null, deliveryTag=1, messageCount=0, consumerTag=amq.ctag-KFuCDHIlnr6HdyU5SCXxZw, consumerQueue=smt.item.queue.test])
+2017-05-31 18:11:04 [INFO ] [application.log:2165] |Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-05-31 18:11:04 [INFO ] [org.eclipse.jetty.server.AbstractConnector.doStart:270] |Started ServerConnector@44a9971f{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+2017-05-31 18:11:04 [INFO ] [com.qbao.pay.notify.NotifyApplication.logStarted:57] |Started NotifyApplication in 25.894 seconds (JVM running for 31.386)
+2017-05-31 18:11:13 [INFO ] [com.qbao.pay.notify.listener.AsyncNotifyCallbackListener.asyncNotifyListener:56] |异步回调MQ消息内容：(Body:'{"outTradeNo":1122009987,"notifyUrl":"","result":{"creator":"admin","email":"9123344569@qq.com","gmtCreated":"1490760835000"}}' MessageProperties [headers={}, timestamp=null, messageId=null, userId=null, receivedUserId=null, appId=null, clusterId=null, type=null, correlationId=null, correlationIdString=null, replyTo=null, contentType=text/plain, contentEncoding=UTF-8, contentLength=0, deliveryMode=null, receivedDeliveryMode=PERSISTENT, expiration=null, priority=0, redelivered=false, receivedExchange=smt.exchange.test, receivedRoutingKey=smt.item.queue.test, receivedDelay=null, deliveryTag=2, messageCount=0, consumerTag=amq.ctag-KFuCDHIlnr6HdyU5SCXxZw, consumerQueue=smt.item.queue.test])
+2017-05-31 18:11:14 [INFO ] [com.qbao.pay.notify.listener.AsyncNotifyCallbackListener.asyncNotifyListener:56] |异步回调MQ消息内容：(Body:'{"outTradeNo":1122009987,"notifyUrl":"http://192.168.1.8:8080/acturl.html","result":{"creator":"admin","email":"9123344569@qq.com","gmtCreated":"1490760835000"}}' MessageProperties [headers={}, timestamp=null, messageId=null, userId=null, receivedUserId=null, appId=null, clusterId=null, type=null, correlationId=null, correlationIdString=null, replyTo=null, contentType=text/plain, contentEncoding=UTF-8, contentLength=0, deliveryMode=null, receivedDeliveryMode=PERSISTENT, expiration=null, priority=0, redelivered=false, receivedExchange=smt.exchange.test, receivedRoutingKey=smt.item.queue.test, receivedDelay=null, deliveryTag=3, messageCount=0, consumerTag=amq.ctag-KFuCDHIlnr6HdyU5SCXxZw, consumerQueue=smt.item.queue.test])
+2017-05-31 18:11:17 [INFO ] [com.qbao.pay.notify.listener.AsyncNotifyCallbackListener.asyncNotifyListener:56] |异步回调MQ消息内容：(Body:'{"outTradeNo":1122009987,"notifyUrl":"","result":{"creator":"admin","email":"9123344569@qq.com","gmtCreated":"1490760835000"}}' MessageProperties [headers={}, timestamp=null, messageId=null, userId=null, receivedUserId=null, appId=null, clusterId=null, type=null, correlationId=null, correlationIdString=null, replyTo=null, contentType=text/plain, contentEncoding=UTF-8, contentLength=0, deliveryMode=null, receivedDeliveryMode=PERSISTENT, expiration=null, priority=0, redelivered=false, receivedExchange=smt.exchange.test, receivedRoutingKey=smt.item.queue.test, receivedDelay=null, deliveryTag=4, messageCount=0, consumerTag=amq.ctag-KFuCDHIlnr6HdyU5SCXxZw, consumerQueue=smt.item.queue.test])
+2017-05-31 18:11:18 [INFO ] [com.qbao.pay.notify.listener.AsyncNotifyCallbackListener.asyncNotifyListener:56] |异步回调MQ消息内容：(Body:'{"outTradeNo":1122009987,"notifyUrl":"http://192.168.1.8:8080/acturl.html","result":{"creator":"admin","email":"9123344569@qq.com","gmtCreated":"1490760835000"}}' MessageProperties [headers={}, timestamp=null, messageId=null, userId=null, receivedUserId=null, appId=null, clusterId=null, type=null, correlationId=null, correlationIdString=null, replyTo=null, contentType=text/plain, contentEncoding=UTF-8, contentLength=0, deliveryMode=null, receivedDeliveryMode=PERSISTENT, expiration=null, priority=0, redelivered=false, receivedExchange=smt.exchange.test, receivedRoutingKey=smt.item.queue.test, receivedDelay=null, deliveryTag=5, messageCount=0, consumerTag=amq.ctag-KFuCDHIlnr6HdyU5SCXxZw, consumerQueue=smt.item.queue.test])
+2017-05-31 18:11:19 [INFO ] [com.qbao.pay.notify.listener.AsyncNotifyCallbackListener.asyncNotifyListener:56] |异步回调MQ消息内容：(Body:'{"outTradeNo":1122009987,"notifyUrl":"","result":{"creator":"admin","email":"9123344569@qq.com","gmtCreated":"1490760835000"}}' MessageProperties [headers={}, timestamp=null, messageId=null, userId=null, receivedUserId=null, appId=null, clusterId=null, type=null, correlationId=null, correlationIdString=null, replyTo=null, contentType=text/plain, contentEncoding=UTF-8, contentLength=0, deliveryMode=null, receivedDeliveryMode=PERSISTENT, expiration=null, priority=0, redelivered=false, receivedExchange=smt.exchange.test, receivedRoutingKey=smt.item.queue.test, receivedDelay=null, deliveryTag=6, messageCount=0, consumerTag=amq.ctag-KFuCDHIlnr6HdyU5SCXxZw, consumerQueue=smt.item.queue.test])
+2017-05-31 18:11:20 [INFO ] [com.qbao.pay.notify.listener.AsyncNotifyCallbackListener.asyncNotifyListener:56] |异步回调MQ消息内容：(Body:'{"outTradeNo":1122009987,"notifyUrl":"http://192.168.1.8:8080/acturl.html","result":{"creator":"admin","email":"9123344569@qq.com","gmtCreated":"1490760835000"}}' MessageProperties [headers={}, timestamp=null, messageId=null, userId=null, receivedUserId=null, appId=null, clusterId=null, type=null, correlationId=null, correlationIdString=null, replyTo=null, contentType=text/plain, contentEncoding=UTF-8, contentLength=0, deliveryMode=null, receivedDeliveryMode=PERSISTENT, expiration=null, priority=0, redelivered=false, receivedExchange=smt.exchange.test, receivedRoutingKey=smt.item.queue.test, receivedDelay=null, deliveryTag=7, messageCount=0, consumerTag=amq.ctag-KFuCDHIlnr6HdyU5SCXxZw, consumerQueue=smt.item.queue.test])
+2017-05-31 18:11:20 [INFO ] [com.qbao.pay.notify.listener.AsyncNotifyCallbackListener.asyncNotifyListener:56] |异步回调MQ消息内容：(Body:'{"outTradeNo":1122009987,"notifyUrl":"","result":{"creator":"admin","email":"9123344569@qq.com","gmtCreated":"1490760835000"}}' MessageProperties [headers={}, timestamp=null, messageId=null, userId=null, receivedUserId=null, appId=null, clusterId=null, type=null, correlationId=null, correlationIdString=null, replyTo=null, contentType=text/plain, contentEncoding=UTF-8, contentLength=0, deliveryMode=null, receivedDeliveryMode=PERSISTENT, expiration=null, priority=0, redelivered=false, receivedExchange=smt.exchange.test, receivedRoutingKey=smt.item.queue.test, receivedDelay=null, deliveryTag=8, messageCount=0, consumerTag=amq.ctag-KFuCDHIlnr6HdyU5SCXxZw, consumerQueue=smt.item.queue.test])
+2017-05-31 18:12:06 [INFO ] [org.hibernate.validator.internal.util.Version.<clinit>:30] |HV000001: Hibernate Validator 5.2.4.Final
+2017-05-31 18:12:11 [INFO ] [com.qbao.pay.notify.NotifyApplication.logStarting:48] |Starting NotifyApplication on MacBook-Pro.local with PID 1668 (/Users/zouchanglong/Documents/dev_work/async_notify_20170531/target/classes started by zouchanglong in /Users/zouchanglong/Documents/dev_work/async_notify_20170531)
+2017-05-31 18:12:11 [INFO ] [com.qbao.pay.notify.NotifyApplication.logStartupProfileInfo:659] |No active profile set, falling back to default profiles: default
+2017-05-31 18:12:12 [WARN ] [org.mybatis.spring.mapper.ClassPathMapperScanner.doScan:167] |No MyBatis mapper was found in '[com.qbao.pay.notify]' package. Please check your configuration.
+2017-05-31 18:12:13 [INFO ] [org.eclipse.jetty.util.log.initialized:192] |Logging initialized @27742ms
+2017-05-31 18:12:13 [INFO ] [org.eclipse.jetty.server.Server.doStart:345] |jetty-9.3.11.v20160721
+2017-05-31 18:12:13 [INFO ] [application.log:2165] |Initializing Spring embedded WebApplicationContext
+2017-05-31 18:12:14 [INFO ] [org.eclipse.jetty.server.handler.ContextHandler.doStart:781] |Started o.s.b.c.e.j.JettyEmbeddedWebAppContext@17354708{/,file:///Users/zouchanglong/Documents/dev_work/async_notify_20170531/src/main/webapp/,AVAILABLE}
+2017-05-31 18:12:14 [INFO ] [org.eclipse.jetty.server.Server.doStart:403] |Started @28347ms
+2017-05-31 18:12:14 [INFO ] [com.alibaba.druid.pool.DruidDataSource.init:638] |{dataSource-1} inited
+2017-05-31 18:12:16 [INFO ] [application.log:2165] |Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-05-31 18:12:16 [INFO ] [org.eclipse.jetty.server.AbstractConnector.doStart:270] |Started ServerConnector@226e95e9{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+2017-05-31 18:12:16 [INFO ] [com.qbao.pay.notify.NotifyApplication.logStarted:57] |Started NotifyApplication in 25.744 seconds (JVM running for 31.239)
+2017-06-01 09:18:51 [INFO ] [org.hibernate.validator.internal.util.Version.<clinit>:30] |HV000001: Hibernate Validator 5.2.4.Final
+2017-06-01 09:18:56 [INFO ] [com.qbao.pay.notify.NotifyApplication.logStarting:48] |Starting NotifyApplication on MacBook-Pro.local with PID 638 (/Users/zouchanglong/Documents/dev_work/async_notify_20170531/target/classes started by zouchanglong in /Users/zouchanglong/Documents/dev_work/async_notify_20170531)
+2017-06-01 09:18:56 [INFO ] [com.qbao.pay.notify.NotifyApplication.logStartupProfileInfo:659] |No active profile set, falling back to default profiles: default
+2017-06-01 09:18:57 [WARN ] [org.mybatis.spring.mapper.ClassPathMapperScanner.doScan:167] |No MyBatis mapper was found in '[com.qbao.pay.notify]' package. Please check your configuration.
+2017-06-01 09:18:58 [INFO ] [org.eclipse.jetty.util.log.initialized:192] |Logging initialized @27724ms
+2017-06-01 09:18:58 [INFO ] [org.eclipse.jetty.server.Server.doStart:345] |jetty-9.3.11.v20160721
+2017-06-01 09:18:58 [INFO ] [application.log:2165] |Initializing Spring embedded WebApplicationContext
+2017-06-01 09:18:58 [INFO ] [org.eclipse.jetty.server.handler.ContextHandler.doStart:781] |Started o.s.b.c.e.j.JettyEmbeddedWebAppContext@2c1f8dbd{/,file:///Users/zouchanglong/Documents/dev_work/async_notify_20170531/src/main/webapp/,AVAILABLE}
+2017-06-01 09:18:58 [INFO ] [org.eclipse.jetty.server.Server.doStart:403] |Started @28257ms
+2017-06-01 09:18:59 [INFO ] [com.alibaba.druid.pool.DruidDataSource.init:638] |{dataSource-1} inited
+2017-06-01 09:19:00 [INFO ] [application.log:2165] |Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-06-01 09:19:00 [INFO ] [org.eclipse.jetty.server.AbstractConnector.doStart:270] |Started ServerConnector@252c6cdb{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+2017-06-01 09:19:00 [INFO ] [com.qbao.pay.notify.NotifyApplication.logStarted:57] |Started NotifyApplication in 25.029 seconds (JVM running for 30.541)
+2017-06-01 09:21:58 [INFO ] [com.alibaba.druid.pool.DruidDataSource.close:1288] |{dataSource-1} closed
+2017-06-01 09:21:58 [INFO ] [org.eclipse.jetty.server.AbstractConnector.doStop:310] |Stopped ServerConnector@252c6cdb{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+2017-06-01 09:21:58 [INFO ] [application.log:2165] |Destroying Spring FrameworkServlet 'dispatcherServlet'
+2017-06-01 09:21:58 [INFO ] [org.eclipse.jetty.server.handler.ContextHandler.doStop:910] |Stopped o.s.b.c.e.j.JettyEmbeddedWebAppContext@2c1f8dbd{/,file:///Users/zouchanglong/Documents/dev_work/async_notify_20170531/src/main/webapp/,UNAVAILABLE}
+2017-06-01 09:22:39 [INFO ] [org.hibernate.validator.internal.util.Version.<clinit>:30] |HV000001: Hibernate Validator 5.2.4.Final
+2017-06-01 09:22:44 [INFO ] [com.qbao.pay.notify.NotifyApplication.logStarting:48] |Starting NotifyApplication on MacBook-Pro.local with PID 650 (/Users/zouchanglong/Documents/dev_work/async_notify_20170531/target/classes started by zouchanglong in /Users/zouchanglong/Documents/dev_work/async_notify_20170531)
+2017-06-01 09:22:44 [INFO ] [com.qbao.pay.notify.NotifyApplication.logStartupProfileInfo:659] |No active profile set, falling back to default profiles: default
+2017-06-01 09:22:45 [WARN ] [org.mybatis.spring.mapper.ClassPathMapperScanner.doScan:167] |No MyBatis mapper was found in '[com.qbao.pay.notify]' package. Please check your configuration.
+2017-06-01 09:22:46 [INFO ] [org.eclipse.jetty.util.log.initialized:192] |Logging initialized @27352ms
+2017-06-01 09:22:46 [INFO ] [org.eclipse.jetty.server.Server.doStart:345] |jetty-9.3.11.v20160721
+2017-06-01 09:22:46 [INFO ] [application.log:2165] |Initializing Spring embedded WebApplicationContext
+2017-06-01 09:22:46 [INFO ] [org.eclipse.jetty.server.handler.ContextHandler.doStart:781] |Started o.s.b.c.e.j.JettyEmbeddedWebAppContext@2c1f8dbd{/,file:///Users/zouchanglong/Documents/dev_work/async_notify_20170531/src/main/webapp/,AVAILABLE}
+2017-06-01 09:22:46 [INFO ] [org.eclipse.jetty.server.Server.doStart:403] |Started @27839ms
+2017-06-01 09:22:47 [INFO ] [com.alibaba.druid.pool.DruidDataSource.init:638] |{dataSource-1} inited
+2017-06-01 09:22:48 [INFO ] [com.qbao.pay.notify.listener.AsyncNotifyCallbackListener.asyncNotifyListener:56] |异步回调MQ消息内容：(Body:'{"outTradeNo":1122009987,"notifyUrl":"http://192.168.1.8:8080/acturl.html","result":{"creator":"admin","email":"9123344569@qq.com","gmtCreated":"1490760835000"}}' MessageProperties [headers={}, timestamp=null, messageId=null, userId=null, receivedUserId=null, appId=null, clusterId=null, type=null, correlationId=null, correlationIdString=null, replyTo=null, contentType=text/plain, contentEncoding=UTF-8, contentLength=0, deliveryMode=null, receivedDeliveryMode=PERSISTENT, expiration=null, priority=0, redelivered=false, receivedExchange=smt.exchange.test, receivedRoutingKey=smt.item.queue.test, receivedDelay=null, deliveryTag=1, messageCount=0, consumerTag=amq.ctag-KNc8cABxKjT3fVjOKVyZVQ, consumerQueue=smt.item.queue.test])
+2017-06-01 09:22:48 [INFO ] [application.log:2165] |Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-06-01 09:22:48 [INFO ] [com.qbao.pay.notify.listener.AsyncNotifyCallbackListener.asyncNotifyListener:56] |异步回调MQ消息内容：(Body:'{"outTradeNo":1122009987,"notifyUrl":"","result":{"creator":"admin","email":"9123344569@qq.com","gmtCreated":"1490760835000"}}' MessageProperties [headers={}, timestamp=null, messageId=null, userId=null, receivedUserId=null, appId=null, clusterId=null, type=null, correlationId=null, correlationIdString=null, replyTo=null, contentType=text/plain, contentEncoding=UTF-8, contentLength=0, deliveryMode=null, receivedDeliveryMode=PERSISTENT, expiration=null, priority=0, redelivered=false, receivedExchange=smt.exchange.test, receivedRoutingKey=smt.item.queue.test, receivedDelay=null, deliveryTag=2, messageCount=0, consumerTag=amq.ctag-KNc8cABxKjT3fVjOKVyZVQ, consumerQueue=smt.item.queue.test])
+2017-06-01 09:22:48 [INFO ] [com.qbao.pay.notify.listener.AsyncNotifyCallbackListener.asyncNotifyListener:56] |异步回调MQ消息内容：(Body:'{"outTradeNo":1122009987,"notifyUrl":"http://192.168.1.8:8080/acturl.html","result":{"creator":"admin","email":"9123344569@qq.com","gmtCreated":"1490760835000"}}' MessageProperties [headers={}, timestamp=null, messageId=null, userId=null, receivedUserId=null, appId=null, clusterId=null, type=null, correlationId=null, correlationIdString=null, replyTo=null, contentType=text/plain, contentEncoding=UTF-8, contentLength=0, deliveryMode=null, receivedDeliveryMode=PERSISTENT, expiration=null, priority=0, redelivered=false, receivedExchange=smt.exchange.test, receivedRoutingKey=smt.item.queue.test, receivedDelay=null, deliveryTag=3, messageCount=0, consumerTag=amq.ctag-KNc8cABxKjT3fVjOKVyZVQ, consumerQueue=smt.item.queue.test])
+2017-06-01 09:22:48 [INFO ] [org.eclipse.jetty.server.AbstractConnector.doStart:270] |Started ServerConnector@252c6cdb{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+2017-06-01 09:22:48 [INFO ] [com.qbao.pay.notify.listener.AsyncNotifyCallbackListener.asyncNotifyListener:56] |异步回调MQ消息内容：(Body:'{"outTradeNo":1122009987,"notifyUrl":"","result":{"creator":"admin","email":"9123344569@qq.com","gmtCreated":"1490760835000"}}' MessageProperties [headers={}, timestamp=null, messageId=null, userId=null, receivedUserId=null, appId=null, clusterId=null, type=null, correlationId=null, correlationIdString=null, replyTo=null, contentType=text/plain, contentEncoding=UTF-8, contentLength=0, deliveryMode=null, receivedDeliveryMode=PERSISTENT, expiration=null, priority=0, redelivered=false, receivedExchange=smt.exchange.test, receivedRoutingKey=smt.item.queue.test, receivedDelay=null, deliveryTag=4, messageCount=0, consumerTag=amq.ctag-KNc8cABxKjT3fVjOKVyZVQ, consumerQueue=smt.item.queue.test])
+2017-06-01 09:22:48 [INFO ] [com.qbao.pay.notify.NotifyApplication.logStarted:57] |Started NotifyApplication in 24.592 seconds (JVM running for 29.998)
+2017-06-01 09:23:23 [INFO ] [com.alibaba.druid.pool.DruidDataSource.close:1288] |{dataSource-1} closed
+2017-06-01 09:23:23 [INFO ] [org.eclipse.jetty.server.AbstractConnector.doStop:310] |Stopped ServerConnector@252c6cdb{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+2017-06-01 09:23:23 [INFO ] [application.log:2165] |Destroying Spring FrameworkServlet 'dispatcherServlet'
+2017-06-01 09:23:23 [INFO ] [org.eclipse.jetty.server.handler.ContextHandler.doStop:910] |Stopped o.s.b.c.e.j.JettyEmbeddedWebAppContext@2c1f8dbd{/,file:///Users/zouchanglong/Documents/dev_work/async_notify_20170531/src/main/webapp/,UNAVAILABLE}
+2017-06-01 09:24:55 [INFO ] [org.hibernate.validator.internal.util.Version.<clinit>:30] |HV000001: Hibernate Validator 5.2.4.Final
+2017-06-01 09:25:00 [INFO ] [com.qbao.pay.notify.NotifyApplication.logStarting:48] |Starting NotifyApplication on MacBook-Pro.local with PID 651 (/Users/zouchanglong/Documents/dev_work/async_notify_20170531/target/classes started by zouchanglong in /Users/zouchanglong/Documents/dev_work/async_notify_20170531)
+2017-06-01 09:25:00 [INFO ] [com.qbao.pay.notify.NotifyApplication.logStartupProfileInfo:659] |No active profile set, falling back to default profiles: default
+2017-06-01 09:25:01 [WARN ] [org.mybatis.spring.mapper.ClassPathMapperScanner.doScan:167] |No MyBatis mapper was found in '[com.qbao.pay.notify]' package. Please check your configuration.
+2017-06-01 09:25:02 [INFO ] [org.eclipse.jetty.util.log.initialized:192] |Logging initialized @27419ms
+2017-06-01 09:25:02 [INFO ] [org.eclipse.jetty.server.Server.doStart:345] |jetty-9.3.11.v20160721
+2017-06-01 09:25:02 [INFO ] [application.log:2165] |Initializing Spring embedded WebApplicationContext
+2017-06-01 09:25:02 [INFO ] [org.eclipse.jetty.server.handler.ContextHandler.doStart:781] |Started o.s.b.c.e.j.JettyEmbeddedWebAppContext@2c1f8dbd{/,file:///Users/zouchanglong/Documents/dev_work/async_notify_20170531/src/main/webapp/,AVAILABLE}
+2017-06-01 09:25:02 [INFO ] [org.eclipse.jetty.server.Server.doStart:403] |Started @27907ms
+2017-06-01 09:25:03 [INFO ] [com.alibaba.druid.pool.DruidDataSource.init:638] |{dataSource-1} inited
+2017-06-01 09:25:04 [INFO ] [application.log:2165] |Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-06-01 09:25:04 [INFO ] [org.eclipse.jetty.server.AbstractConnector.doStart:270] |Started ServerConnector@252c6cdb{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+2017-06-01 09:25:04 [INFO ] [com.qbao.pay.notify.NotifyApplication.logStarted:57] |Started NotifyApplication in 24.715 seconds (JVM running for 30.138)
+2017-06-01 09:26:55 [INFO ] [com.qbao.pay.notify.controller.RabbitMqConfController.getRabbitMqData:42] |RabbitmqConfEntity对象：{}com.qbao.pay.notify.entity.RabbitmqConfEntity@69968632
+2017-06-01 09:27:13 [ERROR] [org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer.run:1372] |Consumer received fatal exception on startup
+org.springframework.amqp.rabbit.listener.QueuesNotAvailableException: Cannot prepare queue for listener. Either the queue doesn't exist or the broker will not allow us to use it.
+	at org.springframework.amqp.rabbit.listener.BlockingQueueConsumer.start(BlockingQueueConsumer.java:514)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.run(SimpleMessageListenerContainer.java:1280)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.springframework.amqp.rabbit.listener.BlockingQueueConsumer$DeclarationException: Failed to declare queue(s):[trade.async.callback.queue]
+	at org.springframework.amqp.rabbit.listener.BlockingQueueConsumer.attemptPassiveDeclarations(BlockingQueueConsumer.java:587)
+	at org.springframework.amqp.rabbit.listener.BlockingQueueConsumer.start(BlockingQueueConsumer.java:486)
+	... 2 common frames omitted
+Caused by: java.io.IOException: null
+	at com.rabbitmq.client.impl.AMQChannel.wrap(AMQChannel.java:106)
+	at com.rabbitmq.client.impl.AMQChannel.wrap(AMQChannel.java:102)
+	at com.rabbitmq.client.impl.AMQChannel.exnWrappingRpc(AMQChannel.java:124)
+	at com.rabbitmq.client.impl.ChannelN.queueDeclarePassive(ChannelN.java:885)
+	at com.rabbitmq.client.impl.ChannelN.queueDeclarePassive(ChannelN.java:61)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.amqp.rabbit.connection.CachingConnectionFactory$CachedChannelInvocationHandler.invoke(CachingConnectionFactory.java:916)
+	at com.sun.proxy.$Proxy104.queueDeclarePassive(Unknown Source)
+	at org.springframework.amqp.rabbit.listener.BlockingQueueConsumer.attemptPassiveDeclarations(BlockingQueueConsumer.java:566)
+	... 3 common frames omitted
+Caused by: com.rabbitmq.client.ShutdownSignalException: channel error; protocol method: #method<channel.close>(reply-code=404, reply-text=NOT_FOUND - no queue 'trade.async.callback.queue' in vhost '/', class-id=50, method-id=10)
+	at com.rabbitmq.utility.ValueOrException.getValue(ValueOrException.java:67)
+	at com.rabbitmq.utility.BlockingValueOrException.uninterruptibleGetValue(BlockingValueOrException.java:33)
+	at com.rabbitmq.client.impl.AMQChannel$BlockingRpcContinuation.getReply(AMQChannel.java:361)
+	at com.rabbitmq.client.impl.AMQChannel.privateRpc(AMQChannel.java:226)
+	at com.rabbitmq.client.impl.AMQChannel.exnWrappingRpc(AMQChannel.java:118)
+	... 12 common frames omitted
+Caused by: com.rabbitmq.client.ShutdownSignalException: channel error; protocol method: #method<channel.close>(reply-code=404, reply-text=NOT_FOUND - no queue 'trade.async.callback.queue' in vhost '/', class-id=50, method-id=10)
+	at com.rabbitmq.client.impl.ChannelN.asyncShutdown(ChannelN.java:484)
+	at com.rabbitmq.client.impl.ChannelN.processAsync(ChannelN.java:321)
+	at com.rabbitmq.client.impl.AMQChannel.handleCompleteInboundCommand(AMQChannel.java:144)
+	at com.rabbitmq.client.impl.AMQChannel.handleFrame(AMQChannel.java:91)
+	at com.rabbitmq.client.impl.AMQConnection$MainLoop.run(AMQConnection.java:560)
+	... 1 common frames omitted
+2017-06-01 09:27:13 [ERROR] [org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer.run:1448] |Stopping container from aborted consumer
+2017-06-01 09:28:09 [INFO ] [com.qbao.pay.notify.controller.RabbitMqConfController.addRabbitMqData:58] |RabbitmqConfEntity对象：{}com.qbao.pay.notify.entity.RabbitmqConfEntity@157706fa
+2017-06-01 09:28:09 [INFO ] [com.qbao.pay.notify.controller.RabbitMqConfController.getRabbitMqData:42] |RabbitmqConfEntity对象：{}com.qbao.pay.notify.entity.RabbitmqConfEntity@2f2fa3d7
+2017-06-01 09:31:08 [INFO ] [com.alibaba.druid.pool.DruidDataSource.close:1288] |{dataSource-1} closed
+2017-06-01 09:31:08 [INFO ] [org.eclipse.jetty.server.AbstractConnector.doStop:310] |Stopped ServerConnector@252c6cdb{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+2017-06-01 09:31:08 [INFO ] [application.log:2165] |Destroying Spring FrameworkServlet 'dispatcherServlet'
+2017-06-01 09:31:08 [INFO ] [org.eclipse.jetty.server.handler.ContextHandler.doStop:910] |Stopped o.s.b.c.e.j.JettyEmbeddedWebAppContext@2c1f8dbd{/,file:///Users/zouchanglong/Documents/dev_work/async_notify_20170531/src/main/webapp/,UNAVAILABLE}
+2017-07-05 16:06:08 [INFO ] [com.qbao.pay.notify.NotifyApplication.logStarting:48] |Starting NotifyApplication on MacBook-Pro.local with PID 2365 (/Users/zouchanglong/Documents/dev_work/async_notify_20170531/target/classes started by zouchanglong in /Users/zouchanglong/Documents/dev_work/async_notify_20170531)
+2017-07-05 16:06:08 [INFO ] [com.qbao.pay.notify.NotifyApplication.logStartupProfileInfo:659] |No active profile set, falling back to default profiles: default
+2017-07-05 16:06:09 [INFO ] [org.hibernate.validator.internal.util.Version.<clinit>:30] |HV000001: Hibernate Validator 5.2.4.Final
+2017-07-05 16:06:10 [WARN ] [org.mybatis.spring.mapper.ClassPathMapperScanner.doScan:167] |No MyBatis mapper was found in '[com.qbao.pay.notify]' package. Please check your configuration.
+2017-07-05 16:06:11 [ERROR] [org.springframework.boot.SpringApplication.reportFailure:838] |Application startup failed
+org.springframework.context.ApplicationContextException: Unable to start embedded container; nested exception is org.springframework.context.ApplicationContextException: Unable to start EmbeddedWebApplicationContext due to missing EmbeddedServletContainerFactory bean.
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.onRefresh(EmbeddedWebApplicationContext.java:137)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:535)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:759)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:369)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:313)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1185)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1174)
+	at com.qbao.pay.notify.NotifyApplication.main(NotifyApplication.java:66)
+Caused by: org.springframework.context.ApplicationContextException: Unable to start EmbeddedWebApplicationContext due to missing EmbeddedServletContainerFactory bean.
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.getEmbeddedServletContainerFactory(EmbeddedWebApplicationContext.java:189)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.createEmbeddedServletContainer(EmbeddedWebApplicationContext.java:162)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.onRefresh(EmbeddedWebApplicationContext.java:134)
+	... 8 common frames omitted
+2017-07-05 16:09:11 [INFO ] [com.qbao.pay.notify.NotifyApplication.logStarting:48] |Starting NotifyApplication on MacBook-Pro.local with PID 2374 (/Users/zouchanglong/Documents/dev_work/async_notify_20170531/target/classes started by zouchanglong in /Users/zouchanglong/Documents/dev_work/async_notify_20170531)
+2017-07-05 16:09:11 [INFO ] [com.qbao.pay.notify.NotifyApplication.logStartupProfileInfo:659] |No active profile set, falling back to default profiles: default
+2017-07-05 16:09:11 [INFO ] [org.hibernate.validator.internal.util.Version.<clinit>:30] |HV000001: Hibernate Validator 5.2.4.Final
+2017-07-05 16:09:12 [WARN ] [org.mybatis.spring.mapper.ClassPathMapperScanner.doScan:167] |No MyBatis mapper was found in '[com.qbao.pay.notify]' package. Please check your configuration.
+2017-07-05 16:09:13 [ERROR] [org.springframework.boot.SpringApplication.reportFailure:838] |Application startup failed
+org.springframework.context.ApplicationContextException: Unable to start embedded container; nested exception is org.springframework.context.ApplicationContextException: Unable to start EmbeddedWebApplicationContext due to missing EmbeddedServletContainerFactory bean.
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.onRefresh(EmbeddedWebApplicationContext.java:137)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:535)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:759)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:369)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:313)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1185)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1174)
+	at com.qbao.pay.notify.NotifyApplication.main(NotifyApplication.java:66)
+Caused by: org.springframework.context.ApplicationContextException: Unable to start EmbeddedWebApplicationContext due to missing EmbeddedServletContainerFactory bean.
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.getEmbeddedServletContainerFactory(EmbeddedWebApplicationContext.java:189)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.createEmbeddedServletContainer(EmbeddedWebApplicationContext.java:162)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.onRefresh(EmbeddedWebApplicationContext.java:134)
+	... 8 common frames omitted
+2017-07-05 16:14:43 [INFO ] [com.qbao.pay.notify.NotifyApplication.logStarting:48] |Starting NotifyApplication on MacBook-Pro.local with PID 2386 (/Users/zouchanglong/Documents/dev_work/async_notify_20170531/target/classes started by zouchanglong in /Users/zouchanglong/Documents/dev_work/async_notify_20170531)
+2017-07-05 16:14:43 [INFO ] [com.qbao.pay.notify.NotifyApplication.logStartupProfileInfo:659] |No active profile set, falling back to default profiles: default
+2017-07-05 16:14:43 [INFO ] [org.hibernate.validator.internal.util.Version.<clinit>:30] |HV000001: Hibernate Validator 5.2.4.Final
+2017-07-05 16:14:45 [WARN ] [org.mybatis.spring.mapper.ClassPathMapperScanner.doScan:167] |No MyBatis mapper was found in '[com.qbao.pay.notify]' package. Please check your configuration.
+2017-07-05 16:14:46 [ERROR] [org.springframework.boot.SpringApplication.reportFailure:838] |Application startup failed
+org.springframework.context.ApplicationContextException: Unable to start embedded container; nested exception is org.springframework.context.ApplicationContextException: Unable to start EmbeddedWebApplicationContext due to missing EmbeddedServletContainerFactory bean.
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.onRefresh(EmbeddedWebApplicationContext.java:137)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:535)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:759)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:369)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:313)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1185)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1174)
+	at com.qbao.pay.notify.NotifyApplication.main(NotifyApplication.java:66)
+Caused by: org.springframework.context.ApplicationContextException: Unable to start EmbeddedWebApplicationContext due to missing EmbeddedServletContainerFactory bean.
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.getEmbeddedServletContainerFactory(EmbeddedWebApplicationContext.java:189)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.createEmbeddedServletContainer(EmbeddedWebApplicationContext.java:162)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.onRefresh(EmbeddedWebApplicationContext.java:134)
+	... 8 common frames omitted
+2017-07-05 16:18:20 [INFO ] [com.qbao.pay.notify.NotifyApplication.logStarting:48] |Starting NotifyApplication on MacBook-Pro.local with PID 2392 (/Users/zouchanglong/Documents/dev_work/async_notify_20170531/target/classes started by zouchanglong in /Users/zouchanglong/Documents/dev_work/async_notify_20170531)
+2017-07-05 16:18:20 [INFO ] [com.qbao.pay.notify.NotifyApplication.logStartupProfileInfo:659] |No active profile set, falling back to default profiles: default
+2017-07-05 16:18:20 [INFO ] [org.hibernate.validator.internal.util.Version.<clinit>:30] |HV000001: Hibernate Validator 5.2.4.Final
+2017-07-05 16:18:21 [WARN ] [org.mybatis.spring.mapper.ClassPathMapperScanner.doScan:167] |No MyBatis mapper was found in '[com.qbao.pay.notify]' package. Please check your configuration.
+2017-07-05 16:18:22 [ERROR] [org.springframework.boot.SpringApplication.reportFailure:838] |Application startup failed
+org.springframework.context.ApplicationContextException: Unable to start embedded container; nested exception is org.springframework.context.ApplicationContextException: Unable to start EmbeddedWebApplicationContext due to missing EmbeddedServletContainerFactory bean.
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.onRefresh(EmbeddedWebApplicationContext.java:137)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:535)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:759)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:369)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:313)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1185)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1174)
+	at com.qbao.pay.notify.NotifyApplication.main(NotifyApplication.java:66)
+Caused by: org.springframework.context.ApplicationContextException: Unable to start EmbeddedWebApplicationContext due to missing EmbeddedServletContainerFactory bean.
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.getEmbeddedServletContainerFactory(EmbeddedWebApplicationContext.java:189)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.createEmbeddedServletContainer(EmbeddedWebApplicationContext.java:162)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.onRefresh(EmbeddedWebApplicationContext.java:134)
+	... 8 common frames omitted
+2017-07-05 16:28:48 [INFO ] [com.qbao.pay.notify.NotifyApplication.logStarting:48] |Starting NotifyApplication on MacBook-Pro.local with PID 2420 (/Users/zouchanglong/Documents/dev_work/async_notify_20170531/target/classes started by zouchanglong in /Users/zouchanglong/Documents/dev_work/async_notify_20170531)
+2017-07-05 16:28:48 [INFO ] [com.qbao.pay.notify.NotifyApplication.logStartupProfileInfo:659] |No active profile set, falling back to default profiles: default
+2017-07-05 16:28:48 [INFO ] [org.hibernate.validator.internal.util.Version.<clinit>:30] |HV000001: Hibernate Validator 5.2.4.Final
+2017-07-05 16:28:50 [WARN ] [org.mybatis.spring.mapper.ClassPathMapperScanner.doScan:167] |No MyBatis mapper was found in '[com.qbao.pay.notify]' package. Please check your configuration.
+2017-07-05 16:28:51 [ERROR] [org.springframework.boot.SpringApplication.reportFailure:838] |Application startup failed
+org.springframework.context.ApplicationContextException: Unable to start embedded container; nested exception is org.springframework.context.ApplicationContextException: Unable to start EmbeddedWebApplicationContext due to missing EmbeddedServletContainerFactory bean.
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.onRefresh(EmbeddedWebApplicationContext.java:137)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:535)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:759)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:369)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:313)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1185)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1174)
+	at com.qbao.pay.notify.NotifyApplication.main(NotifyApplication.java:66)
+Caused by: org.springframework.context.ApplicationContextException: Unable to start EmbeddedWebApplicationContext due to missing EmbeddedServletContainerFactory bean.
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.getEmbeddedServletContainerFactory(EmbeddedWebApplicationContext.java:189)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.createEmbeddedServletContainer(EmbeddedWebApplicationContext.java:162)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.onRefresh(EmbeddedWebApplicationContext.java:134)
+	... 8 common frames omitted
+2017-07-05 16:37:52 [INFO ] [com.qbao.pay.notify.NotifyApplication.logStarting:48] |Starting NotifyApplication on MacBook-Pro.local with PID 2438 (/Users/zouchanglong/Documents/dev_work/async_notify_20170531/target/classes started by zouchanglong in /Users/zouchanglong/Documents/dev_work/async_notify_20170531)
+2017-07-05 16:37:52 [INFO ] [com.qbao.pay.notify.NotifyApplication.logStartupProfileInfo:659] |No active profile set, falling back to default profiles: default
+2017-07-05 16:37:52 [INFO ] [org.hibernate.validator.internal.util.Version.<clinit>:30] |HV000001: Hibernate Validator 5.2.4.Final
+2017-07-05 16:37:53 [WARN ] [org.mybatis.spring.mapper.ClassPathMapperScanner.doScan:167] |No MyBatis mapper was found in '[com.qbao.pay.notify]' package. Please check your configuration.
+2017-07-05 16:37:54 [ERROR] [org.springframework.boot.SpringApplication.reportFailure:838] |Application startup failed
+org.springframework.context.ApplicationContextException: Unable to start embedded container; nested exception is org.springframework.context.ApplicationContextException: Unable to start EmbeddedWebApplicationContext due to missing EmbeddedServletContainerFactory bean.
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.onRefresh(EmbeddedWebApplicationContext.java:137)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:535)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:759)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:369)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:313)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1185)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1174)
+	at com.qbao.pay.notify.NotifyApplication.main(NotifyApplication.java:66)
+Caused by: org.springframework.context.ApplicationContextException: Unable to start EmbeddedWebApplicationContext due to missing EmbeddedServletContainerFactory bean.
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.getEmbeddedServletContainerFactory(EmbeddedWebApplicationContext.java:189)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.createEmbeddedServletContainer(EmbeddedWebApplicationContext.java:162)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.onRefresh(EmbeddedWebApplicationContext.java:134)
+	... 8 common frames omitted
+2017-07-05 16:43:20 [INFO ] [com.qbao.pay.notify.NotifyApplication.logStarting:48] |Starting NotifyApplication on MacBook-Pro.local with PID 2455 (/Users/zouchanglong/Documents/dev_work/async_notify_20170531/target/classes started by zouchanglong in /Users/zouchanglong/Documents/dev_work/async_notify_20170531)
+2017-07-05 16:43:20 [INFO ] [com.qbao.pay.notify.NotifyApplication.logStartupProfileInfo:659] |No active profile set, falling back to default profiles: default
+2017-07-05 16:43:20 [INFO ] [org.hibernate.validator.internal.util.Version.<clinit>:30] |HV000001: Hibernate Validator 5.2.4.Final
+2017-07-05 16:43:21 [WARN ] [org.mybatis.spring.mapper.ClassPathMapperScanner.doScan:167] |No MyBatis mapper was found in '[com.qbao.pay.notify]' package. Please check your configuration.
+2017-07-05 16:43:21 [INFO ] [org.eclipse.jetty.util.log.initialized:192] |Logging initialized @2409ms
+2017-07-05 16:43:21 [INFO ] [org.eclipse.jetty.server.Server.doStart:345] |jetty-9.3.11.v20160721
+2017-07-05 16:43:22 [INFO ] [application.log:2165] |Initializing Spring embedded WebApplicationContext
+2017-07-05 16:43:22 [INFO ] [org.eclipse.jetty.server.handler.ContextHandler.doStart:781] |Started o.s.b.c.e.j.JettyEmbeddedWebAppContext@4ea56bdb{/,file:///Users/zouchanglong/Documents/dev_work/async_notify_20170531/src/main/webapp/,AVAILABLE}
+2017-07-05 16:43:22 [INFO ] [org.eclipse.jetty.server.Server.doStart:403] |Started @2913ms
+2017-07-05 16:43:22 [INFO ] [com.alibaba.druid.pool.DruidDataSource.init:638] |{dataSource-1} inited
+2017-07-05 16:43:24 [INFO ] [com.qbao.pay.notify.listener.AsyncNotifyCallbackListener.asyncNotifyListener:56] |异步回调MQ消息内容：(Body:'{"notifyUrl":"http://192.168.82.140:8081/test/indexGet.html","outTradeNo":"870197054171918336","result":{"buyerId":30000604,"groupCode":"G003","inputCharset":"UTF-8","outTradeNo":"20170601000011","payBqAmount":6,"payRmbAmount":20,"payTotalAmount":26,"payTradeNo":"870197054171918336","payTradeTime":"20170601163520","respCode":"100000","respMsg":"成功","sellerId":104493795,"signCode":"DbU0pwYFpLcI_CfHZtIvAoeKeUQ-apQAOu9Yy4FXFFpLh_ge7Sy539Aj__fB34-nV7QWDveBpR2rq7DExrugrdxUPhlnW-LnIs2eLz1NjlfkhT0Mx1F06PtSkH3d6NhLrszzMRqowAf7ROF6gZF5aKHWQhjwWIGU9gA7wkhKdbo","signType":"RSA","tradeTime":"20170601000011"}}' MessageProperties [headers={}, timestamp=null, messageId=null, userId=null, receivedUserId=null, appId=null, clusterId=null, type=null, correlationId=null, correlationIdString=null, replyTo=null, contentType=text/plain, contentEncoding=UTF-8, contentLength=0, deliveryMode=null, receivedDeliveryMode=PERSISTENT, expiration=null, priority=0, redelivered=true, receivedExchange=trade.async.callback.exchange, receivedRoutingKey=trade.async.callback.routeKey, receivedDelay=null, deliveryTag=1, messageCount=0, consumerTag=amq.ctag-X_kXqlFHtAbjJgIY_9Hq6Q, consumerQueue=trade.async.callback.queue])
+2017-07-05 16:43:24 [INFO ] [application.log:2165] |Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-07-05 16:43:24 [INFO ] [com.qbao.pay.notify.listener.AsyncNotifyCallbackListener.asyncNotifyListener:56] |异步回调MQ消息内容：(Body:'{"notifyUrl":"http://192.168.82.140:8081/test/indexGet.html","outTradeNo":"871575683791466496","result":{"buyerId":30000604,"groupCode":"G003","inputCharset":"UTF-8","outTradeNo":"20170605000001","payBqAmount":6,"payRmbAmount":20,"payTotalAmount":26,"payTradeNo":"871575683791466496","payTradeTime":"20170605115332","respCode":"100000","respMsg":"成功","signCode":"fnSVBzuJrrDoIgAe5d32mw-lWQOm74ojHw--kJl6VQ_fCZDEWD_YZ9fwkpWhWpJqt3hiwD43bL7TT1q2-7RwTREh3HLH9XNOtvGHFlcaG-BOfjCanO54kMWoZAlZ9qkpt3LqH6G_M9e8OHj_kqj3DGJFm8QfF8Kf-1tB3ZY_jsU","signType":"RSA","tradeTime":"20170605000001"}}' MessageProperties [headers={}, timestamp=null, messageId=null, userId=null, receivedUserId=null, appId=null, clusterId=null, type=null, correlationId=null, correlationIdString=null, replyTo=null, contentType=text/plain, contentEncoding=UTF-8, contentLength=0, deliveryMode=null, receivedDeliveryMode=PERSISTENT, expiration=null, priority=0, redelivered=false, receivedExchange=trade.async.callback.exchange, receivedRoutingKey=trade.async.callback.routeKey, receivedDelay=null, deliveryTag=2, messageCount=0, consumerTag=amq.ctag-X_kXqlFHtAbjJgIY_9Hq6Q, consumerQueue=trade.async.callback.queue])
+2017-07-05 16:43:24 [INFO ] [com.qbao.pay.notify.listener.AsyncNotifyCallbackListener.asyncNotifyListener:56] |异步回调MQ消息内容：(Body:'{"notifyUrl":"http://192.168.82.140:8081/test/indexGet.html","outTradeNo":"871904404670918656","result":{"buyerId":30000604,"groupCode":"G006","inputCharset":"UTF-8","outTradeNo":"20170606000001","payBqAmount":6,"payRmbAmount":20,"payTotalAmount":26,"payTradeNo":"871904404670918656","payTradeTime":"20170606093944","respCode":"100000","respMsg":"成功","sellerId":104493795,"signCode":"XZe6H82K75vZ_lzLsAnG8dtAiwTo0ePOZYpIsdPqozWYy1AYnffKhLSHqkkXyU5v7LftFh7NE_yBxgjV1D20_6UtVtO4xoGIImbGil8ljsC7jjnkdzVT59vY7oGuPRvPD2yWYXYeaFYBs-knUx3lukvSeNNldVKuiR6Qt2wKauo","signType":"RSA","tradeTime":"20170606000001"}}' MessageProperties [headers={}, timestamp=null, messageId=null, userId=null, receivedUserId=null, appId=null, clusterId=null, type=null, correlationId=null, correlationIdString=null, replyTo=null, contentType=text/plain, contentEncoding=UTF-8, contentLength=0, deliveryMode=null, receivedDeliveryMode=PERSISTENT, expiration=null, priority=0, redelivered=false, receivedExchange=trade.async.callback.exchange, receivedRoutingKey=trade.async.callback.routeKey, receivedDelay=null, deliveryTag=3, messageCount=0, consumerTag=amq.ctag-X_kXqlFHtAbjJgIY_9Hq6Q, consumerQueue=trade.async.callback.queue])
+2017-07-05 16:43:24 [INFO ] [com.qbao.pay.notify.listener.AsyncNotifyCallbackListener.asyncNotifyListener:56] |异步回调MQ消息内容：(Body:'{"notifyUrl":"http://192.168.82.140:8081/test/indexGet.html","outTradeNo":"871913641128112128","result":{"buyerId":30000604,"groupCode":"G008","inputCharset":"UTF-8","outTradeNo":"20170606000003","payBqAmount":0,"payRmbAmount":20,"payTotalAmount":20,"payTradeNo":"871913641128112128","payTradeTime":"20170606101626","respCode":"100000","respMsg":"成功","sellerId":104493795,"signCode":"lxfjbt0A3kWnpD9BsLrZUNVgX4gUjz_OpXNmP1iRCtE4WFU355HkCPLkeKVo2XNWoxi-kk7sGxBgdU-5W2n3-jKawruVPAKudfvj0Bq7k8I_GmF0-g_LZa4nS42V37N286e9Q-7dtBjFnU39RXwvREBu5a2SIEDYqB2mxvXNC2k","signType":"RSA","tradeTime":"20170606000003"}}' MessageProperties [headers={}, timestamp=null, messageId=null, userId=null, receivedUserId=null, appId=null, clusterId=null, type=null, correlationId=null, correlationIdString=null, replyTo=null, contentType=text/plain, contentEncoding=UTF-8, contentLength=0, deliveryMode=null, receivedDeliveryMode=PERSISTENT, expiration=null, priority=0, redelivered=false, receivedExchange=trade.async.callback.exchange, receivedRoutingKey=trade.async.callback.routeKey, receivedDelay=null, deliveryTag=4, messageCount=0, consumerTag=amq.ctag-X_kXqlFHtAbjJgIY_9Hq6Q, consumerQueue=trade.async.callback.queue])
+2017-07-05 16:43:24 [INFO ] [org.eclipse.jetty.server.AbstractConnector.doStart:270] |Started ServerConnector@6a6e9289{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+2017-07-05 16:43:24 [INFO ] [com.qbao.pay.notify.NotifyApplication.logStarted:57] |Started NotifyApplication in 4.789 seconds (JVM running for 5.212)
+2017-07-05 16:43:24 [INFO ] [com.qbao.pay.notify.listener.AsyncNotifyCallbackListener.asyncNotifyListener:56] |异步回调MQ消息内容：(Body:'{"notifyUrl":"http://192.168.82.140:8081/test/indexGet.html","outTradeNo":"871915344959254528","result":{"buyerId":30000604,"groupCode":"G009","inputCharset":"UTF-8","outTradeNo":"20170606000004","payBqAmount":6,"payRmbAmount":20,"payTotalAmount":26,"payTradeNo":"871915344959254528","payTradeTime":"20170606102312","respCode":"100000","respMsg":"成功","sellerId":104493795,"signCode":"nWSnprR6NbRZ3knuFABtmXAmjbQ-M-TKe62dwp3gkL2AIVVoDEu_zuU9_4qUqXapg7hsnRWF1FQ0GimxZ7TXezyp8zEOVN5wR06tkUFW5hFeyP4Zsi6ucw84uf_w-f8zHab-DbYqfItk6LcbzF9Sl4BDUsucl7tGNbHs9zxB_30","signType":"RSA","tradeTime":"20170606000004"}}' MessageProperties [headers={}, timestamp=null, messageId=null, userId=null, receivedUserId=null, appId=null, clusterId=null, type=null, correlationId=null, correlationIdString=null, replyTo=null, contentType=text/plain, contentEncoding=UTF-8, contentLength=0, deliveryMode=null, receivedDeliveryMode=PERSISTENT, expiration=null, priority=0, redelivered=false, receivedExchange=trade.async.callback.exchange, receivedRoutingKey=trade.async.callback.routeKey, receivedDelay=null, deliveryTag=5, messageCount=0, consumerTag=amq.ctag-X_kXqlFHtAbjJgIY_9Hq6Q, consumerQueue=trade.async.callback.queue])
+2017-07-05 16:43:24 [INFO ] [com.qbao.pay.notify.listener.AsyncNotifyCallbackListener.asyncNotifyListener:56] |异步回调MQ消息内容：(Body:'{"notifyUrl":"http://192.168.82.140:8081/test/indexGet.html","outTradeNo":"871926710625513472","result":{"buyerId":30000604,"groupCode":"G011","inputCharset":"UTF-8","outTradeNo":"20170606000006","payBqAmount":6,"payRmbAmount":20,"payTotalAmount":26,"payTradeNo":"871926710625513472","payTradeTime":"20170606110822","respCode":"100000","respMsg":"成功","sellerId":104493795,"signCode":"ZhpCW_v656sCTIuKQ5j9kz-lh8_2P-EAn9_9MA0T1it2ItPVmbpMXMWDK0qmV57GIseCt6FJ0KYBqeTb2TTMK2CesEj7ImIT19UJyBUWvwSdHUAT3siau2kDfZEKa7GDMNx-tS-bZQnvGP4OwUNdrnXxJN9OPX1ZpnbQBCwc-ZQ","signType":"RSA","tradeTime":"20170606000006"}}' MessageProperties [headers={}, timestamp=null, messageId=null, userId=null, receivedUserId=null, appId=null, clusterId=null, type=null, correlationId=null, correlationIdString=null, replyTo=null, contentType=text/plain, contentEncoding=UTF-8, contentLength=0, deliveryMode=null, receivedDeliveryMode=PERSISTENT, expiration=null, priority=0, redelivered=false, receivedExchange=trade.async.callback.exchange, receivedRoutingKey=trade.async.callback.routeKey, receivedDelay=null, deliveryTag=6, messageCount=0, consumerTag=amq.ctag-X_kXqlFHtAbjJgIY_9Hq6Q, consumerQueue=trade.async.callback.queue])
+2017-07-05 16:43:24 [INFO ] [com.qbao.pay.notify.listener.AsyncNotifyCallbackListener.asyncNotifyListener:56] |异步回调MQ消息内容：(Body:'{"notifyUrl":"http://192.168.82.140:8081/test/indexGet.html","outTradeNo":"871933900161691648","result":{"buyerId":30000604,"groupCode":"G032","inputCharset":"UTF-8","outTradeNo":"20170606000010","payBqAmount":0,"payRmbAmount":20,"payTotalAmount":20,"payTradeNo":"871933900161691648","payTradeTime":"20170606113656","respCode":"100000","respMsg":"成功","sellerId":104493795,"signCode":"IDUC6Y01R_JXQHJeh50P5qliJwrO3v5m8K3DapbRbCes77TXCdqVTkvZqnL1wUX9-LZke8AsjupgDB1PhH6lejjw3SfzTBmPi8uvlR7TiwIU1pEYeiRk-GvfLurrU85bNaUR2ZzdiQp2QkjnA7KgNYQIP9boqHekybx8CMzp-uY","signType":"RSA","tradeTime":"20170606000010"}}' MessageProperties [headers={}, timestamp=null, messageId=null, userId=null, receivedUserId=null, appId=null, clusterId=null, type=null, correlationId=null, correlationIdString=null, replyTo=null, contentType=text/plain, contentEncoding=UTF-8, contentLength=0, deliveryMode=null, receivedDeliveryMode=PERSISTENT, expiration=null, priority=0, redelivered=false, receivedExchange=trade.async.callback.exchange, receivedRoutingKey=trade.async.callback.routeKey, receivedDelay=null, deliveryTag=7, messageCount=0, consumerTag=amq.ctag-X_kXqlFHtAbjJgIY_9Hq6Q, consumerQueue=trade.async.callback.queue])
+2017-07-05 16:43:24 [INFO ] [com.qbao.pay.notify.listener.AsyncNotifyCallbackListener.asyncNotifyListener:56] |异步回调MQ消息内容：(Body:'{"notifyUrl":"http://192.168.82.140:8081/test/indexGet.html","outTradeNo":"871936545697968128","result":{"buyerId":30000604,"groupCode":"G034","inputCharset":"UTF-8","outTradeNo":"20170606000012","payBqAmount":0,"payRmbAmount":20,"payTotalAmount":20,"payTradeNo":"871936545697968128","payTradeTime":"20170606114727","respCode":"100000","respMsg":"成功","sellerId":104493795,"signCode":"PKuSFNanuk1SSFXZhEHUkIGWIqACKfs-ALB2i5B1l8ZFTySoRcbCxqABeeEJXYRCgNyzYaeUeeg4WxyX1p1fnqkKQbikdLiFWnSgmeYoUrI4EzhPRcqpxvrdmmbATixXjOjig_B9CtjckeMy3HP1rSPaNxrymQZvllYMEw4WjfI","signType":"RSA","tradeTime":"20170606000012"}}' MessageProperties [headers={}, timestamp=null, messageId=null, userId=null, receivedUserId=null, appId=null, clusterId=null, type=null, correlationId=null, correlationIdString=null, replyTo=null, contentType=text/plain, contentEncoding=UTF-8, contentLength=0, deliveryMode=null, receivedDeliveryMode=PERSISTENT, expiration=null, priority=0, redelivered=false, receivedExchange=trade.async.callback.exchange, receivedRoutingKey=trade.async.callback.routeKey, receivedDelay=null, deliveryTag=8, messageCount=0, consumerTag=amq.ctag-X_kXqlFHtAbjJgIY_9Hq6Q, consumerQueue=trade.async.callback.queue])
+2017-07-05 16:43:24 [INFO ] [com.qbao.pay.notify.listener.AsyncNotifyCallbackListener.asyncNotifyListener:56] |异步回调MQ消息内容：(Body:'{"notifyUrl":"http://192.168.82.140:8081/test/indexGet.html","outTradeNo":"871938094788653056","result":{"buyerId":30000604,"groupCode":"G039","inputCharset":"UTF-8","outTradeNo":"20170606000013","payBqAmount":6,"payRmbAmount":20,"payTotalAmount":26,"payTradeNo":"871938094788653056","payTradeTime":"20170606115336","respCode":"100000","respMsg":"成功","sellerId":104493795,"signCode":"BIgURhFMXDheX8NskqjtLpUPh57wXd9oPvHd3ihY-IPVmIgWLIN3Sft7IvM3MgsWdyX-PMM9veg2PrS57pFcJ9UfxYfafUomaoVxffPB4igNE7VFdFtGk2oNda9XUP-mJu7QSPdqXeATx52SfKMOGZQA2eX8ZvzpmnUSUho7tTk","signType":"RSA","tradeTime":"20170606000013"}}' MessageProperties [headers={}, timestamp=null, messageId=null, userId=null, receivedUserId=null, appId=null, clusterId=null, type=null, correlationId=null, correlationIdString=null, replyTo=null, contentType=text/plain, contentEncoding=UTF-8, contentLength=0, deliveryMode=null, receivedDeliveryMode=PERSISTENT, expiration=null, priority=0, redelivered=false, receivedExchange=trade.async.callback.exchange, receivedRoutingKey=trade.async.callback.routeKey, receivedDelay=null, deliveryTag=9, messageCount=0, consumerTag=amq.ctag-X_kXqlFHtAbjJgIY_9Hq6Q, consumerQueue=trade.async.callback.queue])
+2017-07-05 16:43:24 [INFO ] [com.qbao.pay.notify.listener.AsyncNotifyCallbackListener.asyncNotifyListener:56] |异步回调MQ消息内容：(Body:'{"notifyUrl":"http://192.168.82.140:8081/test/indexGet.html","outTradeNo":"872360691149975552","result":{"buyerId":30000604,"groupCode":"G006","inputCharset":"UTF-8","outTradeNo":"20170607000001","payBqAmount":6,"payRmbAmount":20,"payTotalAmount":26,"payTradeNo":"872360691149975552","payTradeTime":"20170607155252","respCode":"100000","respMsg":"成功","sellerId":104493795,"signCode":"S00Tf9HUePmMCxIOWSZFkNH-9ET4_piyq6AoL2qoJxVhsuOxO9h-RIKJ4Mg0QWKejbMe58THWXxsayLp7PPllwvN4oRlrjCJ6CHkEnkhaky6DRkN7J7WL26-K_uZ67PqlN5emVNlkM04G_LOU6WXXtMIXpZp1KEUV6ZW5oU-VYQ","signType":"RSA","tradeTime":"20170607000001"}}' MessageProperties [headers={}, timestamp=null, messageId=null, userId=null, receivedUserId=null, appId=null, clusterId=null, type=null, correlationId=null, correlationIdString=null, replyTo=null, contentType=text/plain, contentEncoding=UTF-8, contentLength=0, deliveryMode=null, receivedDeliveryMode=PERSISTENT, expiration=null, priority=0, redelivered=false, receivedExchange=trade.async.callback.exchange, receivedRoutingKey=trade.async.callback.routeKey, receivedDelay=null, deliveryTag=10, messageCount=0, consumerTag=amq.ctag-X_kXqlFHtAbjJgIY_9Hq6Q, consumerQueue=trade.async.callback.queue])
+2017-07-05 16:43:24 [INFO ] [com.qbao.pay.notify.listener.AsyncNotifyCallbackListener.asyncNotifyListener:56] |异步回调MQ消息内容：(Body:'{"notifyUrl":"http://192.168.82.140:8081/test/indexGet.html","outTradeNo":"872367347472674816","result":{"buyerId":30000604,"groupCode":"G002","inputCharset":"UTF-8","outTradeNo":"20170607000002","payBqAmount":6,"payRmbAmount":20,"payTotalAmount":26,"payTradeNo":"872367347472674816","payTradeTime":"20170607161918","respCode":"100000","respMsg":"成功","sellerId":104493795,"signCode":"m70guAxDsAlOWmkPuHymEkL10XgqMWiM7JBuXbwzLXBHKp-I641o691OZcAt-vW7uw9K8iYqywtjVYNfGBFxy6BYydHw50pNnTVdVCqbtqpV5ErECjUCeeFGJC-X5Rbgh-ZP782_uDY3NQZIcDinKe7fDPituRBJzcBnBTjOLps","signType":"RSA","tradeTime":"20170607000002"}}' MessageProperties [headers={}, timestamp=null, messageId=null, userId=null, receivedUserId=null, appId=null, clusterId=null, type=null, correlationId=null, correlationIdString=null, replyTo=null, contentType=text/plain, contentEncoding=UTF-8, contentLength=0, deliveryMode=null, receivedDeliveryMode=PERSISTENT, expiration=null, priority=0, redelivered=false, receivedExchange=trade.async.callback.exchange, receivedRoutingKey=trade.async.callback.routeKey, receivedDelay=null, deliveryTag=11, messageCount=0, consumerTag=amq.ctag-X_kXqlFHtAbjJgIY_9Hq6Q, consumerQueue=trade.async.callback.queue])
+2017-07-05 16:43:24 [INFO ] [com.qbao.pay.notify.listener.AsyncNotifyCallbackListener.asyncNotifyListener:56] |异步回调MQ消息内容：(Body:'{"notifyUrl":"http://192.168.82.140:8081/test/indexGet.html","outTradeNo":"872371696261279744","result":{"buyerId":30000604,"groupCode":"G002","inputCharset":"UTF-8","outTradeNo":"20170607000004","payBqAmount":6,"payRmbAmount":20,"payTotalAmount":26,"payTradeNo":"872371696261279744","payTradeTime":"20170607163635","respCode":"100000","respMsg":"成功","sellerId":104493795,"signCode":"QifLTpZ4aDOtdHub5m4xeOzWSLwhiOQkoq8Nt84gxQR5PL9Qb-pFxIBGfbJchahJsj4rI9TnhOjPBtIjQOTQ5GSoXiTKmembpJ74_qs0e6Ve3H4I_bzmN4Y_zy5gQM_3DEBbYLlUcUjcQbK7rxcm5xT13zgcv2aAa1BoOrzG3vE","signType":"RSA","tradeTime":"20170607000004"}}' MessageProperties [headers={}, timestamp=null, messageId=null, userId=null, receivedUserId=null, appId=null, clusterId=null, type=null, correlationId=null, correlationIdString=null, replyTo=null, contentType=text/plain, contentEncoding=UTF-8, contentLength=0, deliveryMode=null, receivedDeliveryMode=PERSISTENT, expiration=null, priority=0, redelivered=false, receivedExchange=trade.async.callback.exchange, receivedRoutingKey=trade.async.callback.routeKey, receivedDelay=null, deliveryTag=12, messageCount=0, consumerTag=amq.ctag-X_kXqlFHtAbjJgIY_9Hq6Q, consumerQueue=trade.async.callback.queue])
+2017-07-05 16:43:24 [INFO ] [com.qbao.pay.notify.listener.AsyncNotifyCallbackListener.asyncNotifyListener:56] |异步回调MQ消息内容：(Body:'{"notifyUrl":"http://192.168.82.140:8081/test/indexGet.html","outTradeNo":"876715017947459584","result":{"buyerId":30000604,"groupCode":"G002","inputCharset":"UTF-8","outTradeNo":"20170619000001","payBqAmount":6,"payRmbAmount":20,"payTotalAmount":26,"payTradeNo":"876715017947459584","payTradeTime":"20170619161659","respCode":"100000","respMsg":"成功","sellerId":104493795,"signCode":"Z1RPeOXVA_p33ZigFH6CP1Asd72GuFV7zQDWPhLPwKD9-gmb5SNHN51SnZmV_kgRX5BJIUZlN45Ig7clc2-zc6FbWHieaSd677XpyPgef_qrxqkJMcua-Rduok-S3SGhwDUPOXUipWosb7cb8FLrwkZS1vbFdU9bQUq7KI-K9OM","signType":"RSA","tradeTime":"20170619000001"}}' MessageProperties [headers={}, timestamp=null, messageId=null, userId=null, receivedUserId=null, appId=null, clusterId=null, type=null, correlationId=null, correlationIdString=null, replyTo=null, contentType=text/plain, contentEncoding=UTF-8, contentLength=0, deliveryMode=null, receivedDeliveryMode=PERSISTENT, expiration=null, priority=0, redelivered=false, receivedExchange=trade.async.callback.exchange, receivedRoutingKey=trade.async.callback.routeKey, receivedDelay=null, deliveryTag=13, messageCount=0, consumerTag=amq.ctag-X_kXqlFHtAbjJgIY_9Hq6Q, consumerQueue=trade.async.callback.queue])
+2017-07-05 16:43:24 [INFO ] [com.qbao.pay.notify.listener.AsyncNotifyCallbackListener.asyncNotifyListener:56] |异步回调MQ消息内容：(Body:'{"notifyUrl":"http://192.168.82.140:8081/test/indexGet.html","outTradeNo":"876715716118720512","result":{"buyerId":30000604,"groupCode":"G002","inputCharset":"UTF-8","outTradeNo":"20170619000002","payBqAmount":6,"payRmbAmount":20,"payTotalAmount":26,"payTradeNo":"876715716118720512","payTradeTime":"20170619161816","respCode":"100000","respMsg":"成功","sellerId":104493795,"signCode":"Ud-l7rRIDLofxkb4vM_A8d9M-F_rl0J5Ey26YhzwGas2o04UbYI9BVVBuQv5jkOnn4vba-C3Ikgrmj58xxsGMjrc2XOj2xd896MyvOInlTCVZJNjovxiZsb2zAx-H6QxXiHaSlJBjoQPC-NOf94jUD04HCGFhmajnTK0E7FFovQ","signType":"RSA","tradeTime":"20170619000002"}}' MessageProperties [headers={}, timestamp=null, messageId=null, userId=null, receivedUserId=null, appId=null, clusterId=null, type=null, correlationId=null, correlationIdString=null, replyTo=null, contentType=text/plain, contentEncoding=UTF-8, contentLength=0, deliveryMode=null, receivedDeliveryMode=PERSISTENT, expiration=null, priority=0, redelivered=false, receivedExchange=trade.async.callback.exchange, receivedRoutingKey=trade.async.callback.routeKey, receivedDelay=null, deliveryTag=14, messageCount=0, consumerTag=amq.ctag-X_kXqlFHtAbjJgIY_9Hq6Q, consumerQueue=trade.async.callback.queue])
+2017-07-05 16:45:44 [INFO ] [com.alibaba.druid.pool.DruidDataSource.close:1288] |{dataSource-1} closed
+2017-07-05 16:45:44 [INFO ] [org.eclipse.jetty.server.AbstractConnector.doStop:310] |Stopped ServerConnector@6a6e9289{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+2017-07-05 16:45:44 [INFO ] [application.log:2165] |Destroying Spring FrameworkServlet 'dispatcherServlet'
+2017-07-05 16:45:44 [INFO ] [org.eclipse.jetty.server.handler.ContextHandler.doStop:910] |Stopped o.s.b.c.e.j.JettyEmbeddedWebAppContext@4ea56bdb{/,file:///Users/zouchanglong/Documents/dev_work/async_notify_20170531/src/main/webapp/,UNAVAILABLE}
+2017-07-05 17:06:44 [INFO ] [com.qbao.pay.notify.NotifyApplication.logStarting:48] |Starting NotifyApplication on MacBook-Pro.local with PID 2505 (/Users/zouchanglong/Documents/dev_work/async_notify_20170531/target/classes started by zouchanglong in /Users/zouchanglong/Documents/dev_work/async_notify_20170531)
+2017-07-05 17:06:44 [INFO ] [com.qbao.pay.notify.NotifyApplication.logStartupProfileInfo:659] |No active profile set, falling back to default profiles: default
+2017-07-05 17:06:44 [INFO ] [org.hibernate.validator.internal.util.Version.<clinit>:30] |HV000001: Hibernate Validator 5.2.4.Final
+2017-07-05 17:06:45 [WARN ] [org.mybatis.spring.mapper.ClassPathMapperScanner.doScan:167] |No MyBatis mapper was found in '[com.qbao.pay.notify]' package. Please check your configuration.
+2017-07-05 17:06:47 [INFO ] [com.alibaba.druid.pool.DruidDataSource.init:638] |{dataSource-1} inited
+2017-07-05 17:06:50 [INFO ] [com.qbao.pay.notify.NotifyApplication.logStarted:57] |Started NotifyApplication in 6.206 seconds (JVM running for 6.587)
+2017-07-05 17:07:00 [INFO ] [com.alibaba.druid.pool.DruidDataSource.close:1288] |{dataSource-1} closed
+2017-07-07 10:31:21 [INFO ] [com.qbao.pay.notify.NotifyApplication.logStarting:48] |Starting NotifyApplication on MacBook-Pro.local with PID 1317 (/Users/zouchanglong/Documents/dev_work/async_notify_20170531/target/classes started by zouchanglong in /Users/zouchanglong/Documents/dev_work/async_notify_20170531)
+2017-07-07 10:31:21 [INFO ] [com.qbao.pay.notify.NotifyApplication.logStartupProfileInfo:659] |No active profile set, falling back to default profiles: default
+2017-07-07 10:31:21 [INFO ] [org.hibernate.validator.internal.util.Version.<clinit>:30] |HV000001: Hibernate Validator 5.2.4.Final
+2017-07-07 10:31:23 [ERROR] [org.springframework.boot.SpringApplication.reportFailure:838] |Application startup failed
+org.springframework.beans.factory.xml.XmlBeanDefinitionStoreException: Line 47 in XML document from class path resource [spring/dal-config.xml] is invalid; nested exception is org.xml.sax.SAXParseException; lineNumber: 47; columnNumber: 173; cvc-complex-type.2.4.c: 通配符的匹配很全面, 但无法找到元素 'reg:zookeeper' 的声明。
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.doLoadBeanDefinitions(XmlBeanDefinitionReader.java:399)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:336)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:304)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:181)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:217)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:188)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsFromImportedResources(ConfigurationClassBeanDefinitionReader.java:346)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsForConfigurationClass(ConfigurationClassBeanDefinitionReader.java:142)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitions(ConfigurationClassBeanDefinitionReader.java:116)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:333)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:243)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:273)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:98)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:681)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:523)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:759)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:369)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:313)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1185)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1174)
+	at com.qbao.pay.notify.NotifyApplication.main(NotifyApplication.java:66)
+Caused by: org.xml.sax.SAXParseException: cvc-complex-type.2.4.c: 通配符的匹配很全面, 但无法找到元素 'reg:zookeeper' 的声明。
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:198)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.error(ErrorHandlerWrapper.java:134)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:437)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:368)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:325)
+	at com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator$XSIErrorReporter.reportError(XMLSchemaValidator.java:458)
+	at com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator.reportSchemaError(XMLSchemaValidator.java:3237)
+	at com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator.handleStartElement(XMLSchemaValidator.java:1917)
+	at com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator.emptyElement(XMLSchemaValidator.java:766)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.scanStartElement(XMLNSDocumentScannerImpl.java:356)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2786)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:606)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next(XMLNSDocumentScannerImpl.java:117)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:510)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:848)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:777)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(DOMParser.java:243)
+	at com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(DocumentBuilderImpl.java:347)
+	at org.springframework.beans.factory.xml.DefaultDocumentLoader.loadDocument(DefaultDocumentLoader.java:76)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.doLoadDocument(XmlBeanDefinitionReader.java:429)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.doLoadBeanDefinitions(XmlBeanDefinitionReader.java:391)
+	... 21 common frames omitted
+2017-07-07 10:36:46 [INFO ] [com.qbao.pay.notify.NotifyApplication.logStarting:48] |Starting NotifyApplication on MacBook-Pro.local with PID 1333 (/Users/zouchanglong/Documents/dev_work/async_notify_20170531/target/classes started by zouchanglong in /Users/zouchanglong/Documents/dev_work/async_notify_20170531)
+2017-07-07 10:36:46 [INFO ] [com.qbao.pay.notify.NotifyApplication.logStartupProfileInfo:659] |No active profile set, falling back to default profiles: default
+2017-07-07 10:36:46 [INFO ] [org.hibernate.validator.internal.util.Version.<clinit>:30] |HV000001: Hibernate Validator 5.2.4.Final
+2017-07-07 10:36:48 [WARN ] [org.mybatis.spring.mapper.ClassPathMapperScanner.doScan:167] |No MyBatis mapper was found in '[com.qbao.pay.notify]' package. Please check your configuration.
+2017-07-07 10:36:49 [INFO ] [org.eclipse.jetty.server.Server.doStart:272] |jetty-8.1.19.v20160209
+2017-07-07 10:36:49 [INFO ] [application.log:2040] |Initializing Spring embedded WebApplicationContext
+2017-07-07 10:36:50 [INFO ] [com.alibaba.druid.pool.DruidDataSource.init:638] |{dataSource-1} inited
+2017-07-07 10:36:50 [INFO ] [org.quartz.impl.StdSchedulerFactory.instantiate:1172] |Using default implementation for ThreadExecutor
+2017-07-07 10:36:50 [INFO ] [org.quartz.core.SchedulerSignalerImpl.<init>:61] |Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2017-07-07 10:36:50 [INFO ] [org.quartz.core.QuartzScheduler.<init>:240] |Quartz Scheduler v.2.2.3 created.
+2017-07-07 10:36:50 [INFO ] [org.quartz.core.QuartzScheduler.setJobFactory:2311] |JobFactory set to: com.dangdang.ddframe.job.lite.spring.schedule.SpringJobFactory@11f5f8a5
+2017-07-07 10:36:50 [INFO ] [org.quartz.plugins.management.ShutdownHookPlugin.initialize:120] |Registering Quartz shutdown hook.
+2017-07-07 10:36:50 [INFO ] [org.quartz.simpl.RAMJobStore.initialize:155] |RAMJobStore initialized.
+2017-07-07 10:36:50 [INFO ] [org.quartz.core.QuartzScheduler.initialize:305] |Scheduler meta-data: Quartz Scheduler (v2.2.3) 'DEFAULT.myElasticJob' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 1 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2017-07-07 10:36:50 [INFO ] [org.quartz.impl.StdSchedulerFactory.instantiate:1327] |Quartz scheduler 'DEFAULT.myElasticJob' initialized from an externally provided properties instance.
+2017-07-07 10:36:50 [INFO ] [org.quartz.impl.StdSchedulerFactory.instantiate:1331] |Quartz scheduler version: 2.2.3
+2017-07-07 10:36:50 [INFO ] [com.alibaba.druid.pool.DruidDataSource.close:1288] |{dataSource-1} closed
+2017-07-07 10:36:51 [INFO ] [org.eclipse.jetty.server.handler.ContextHandler.doStop:843] |stopped o.s.b.c.e.j.JettyEmbeddedWebAppContext{/,file:/Users/zouchanglong/Documents/dev_work/async_notify_20170531/src/main/webapp/}
+2017-07-07 10:36:51 [INFO ] [com.alibaba.druid.pool.DruidDataSource.init:638] |{dataSource-2} inited
+2017-07-07 10:36:51 [ERROR] [org.springframework.boot.SpringApplication.reportFailure:838] |Application startup failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'com.dangdang.ddframe.job.lite.spring.schedule.SpringJobScheduler#0': Invocation of init method failed; nested exception is java.lang.RuntimeException: CronExpression '0 */2* * * ?' is invalid.
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1578)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:545)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:776)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:861)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:541)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:759)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:369)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:313)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1185)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1174)
+	at com.qbao.pay.notify.NotifyApplication.main(NotifyApplication.java:66)
+Caused by: java.lang.RuntimeException: CronExpression '0 */2* * * ?' is invalid.
+	at org.quartz.CronScheduleBuilder.cronSchedule(CronScheduleBuilder.java:111)
+	at com.dangdang.ddframe.job.lite.internal.schedule.JobScheduleController.createTrigger(JobScheduleController.java:83)
+	at com.dangdang.ddframe.job.lite.internal.schedule.JobScheduleController.scheduleJob(JobScheduleController.java:58)
+	at com.dangdang.ddframe.job.lite.api.JobScheduler.init(JobScheduler.java:86)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeCustomInitMethod(AbstractAutowireCapableBeanFactory.java:1706)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1645)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1574)
+	... 16 common frames omitted
+Caused by: java.text.ParseException: Illegal cron expression format (java.lang.NumberFormatException: For input string: "2*")
+	at org.quartz.CronExpression.buildExpression(CronExpression.java:518)
+	at org.quartz.CronExpression.<init>(CronExpression.java:276)
+	at org.quartz.CronScheduleBuilder.cronSchedule(CronScheduleBuilder.java:107)
+	... 26 common frames omitted
+2017-07-07 10:37:23 [INFO ] [org.quartz.plugins.management.ShutdownHookPlugin.run:126] |Shutting down Quartz...
+2017-07-07 10:37:23 [INFO ] [org.quartz.core.QuartzScheduler.shutdown:694] |Scheduler DEFAULT.myElasticJob_$_NON_CLUSTERED shutting down.
+2017-07-07 10:37:23 [INFO ] [org.quartz.core.QuartzScheduler.standby:613] |Scheduler DEFAULT.myElasticJob_$_NON_CLUSTERED paused.
+2017-07-07 10:37:23 [INFO ] [org.quartz.core.QuartzScheduler.shutdown:771] |Scheduler DEFAULT.myElasticJob_$_NON_CLUSTERED shutdown complete.
+2017-07-07 10:37:41 [INFO ] [com.qbao.pay.notify.NotifyApplication.logStarting:48] |Starting NotifyApplication on MacBook-Pro.local with PID 1337 (/Users/zouchanglong/Documents/dev_work/async_notify_20170531/target/classes started by zouchanglong in /Users/zouchanglong/Documents/dev_work/async_notify_20170531)
+2017-07-07 10:37:41 [INFO ] [com.qbao.pay.notify.NotifyApplication.logStartupProfileInfo:659] |No active profile set, falling back to default profiles: default
+2017-07-07 10:37:41 [INFO ] [org.hibernate.validator.internal.util.Version.<clinit>:30] |HV000001: Hibernate Validator 5.2.4.Final
+2017-07-07 10:37:43 [WARN ] [org.mybatis.spring.mapper.ClassPathMapperScanner.doScan:167] |No MyBatis mapper was found in '[com.qbao.pay.notify]' package. Please check your configuration.
+2017-07-07 10:37:44 [INFO ] [org.eclipse.jetty.server.Server.doStart:272] |jetty-8.1.19.v20160209
+2017-07-07 10:37:44 [INFO ] [application.log:2040] |Initializing Spring embedded WebApplicationContext
+2017-07-07 10:37:44 [INFO ] [com.alibaba.druid.pool.DruidDataSource.init:638] |{dataSource-1} inited
+2017-07-07 10:37:45 [INFO ] [org.quartz.impl.StdSchedulerFactory.instantiate:1172] |Using default implementation for ThreadExecutor
+2017-07-07 10:37:45 [INFO ] [org.quartz.core.SchedulerSignalerImpl.<init>:61] |Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2017-07-07 10:37:45 [INFO ] [org.quartz.core.QuartzScheduler.<init>:240] |Quartz Scheduler v.2.2.3 created.
+2017-07-07 10:37:45 [INFO ] [org.quartz.core.QuartzScheduler.setJobFactory:2311] |JobFactory set to: com.dangdang.ddframe.job.lite.spring.schedule.SpringJobFactory@6e7057a6
+2017-07-07 10:37:45 [INFO ] [org.quartz.plugins.management.ShutdownHookPlugin.initialize:120] |Registering Quartz shutdown hook.
+2017-07-07 10:37:45 [INFO ] [org.quartz.simpl.RAMJobStore.initialize:155] |RAMJobStore initialized.
+2017-07-07 10:37:45 [INFO ] [org.quartz.core.QuartzScheduler.initialize:305] |Scheduler meta-data: Quartz Scheduler (v2.2.3) 'DEFAULT.myElasticJob' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 1 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2017-07-07 10:37:45 [INFO ] [org.quartz.impl.StdSchedulerFactory.instantiate:1327] |Quartz scheduler 'DEFAULT.myElasticJob' initialized from an externally provided properties instance.
+2017-07-07 10:37:45 [INFO ] [org.quartz.impl.StdSchedulerFactory.instantiate:1331] |Quartz scheduler version: 2.2.3
+2017-07-07 10:37:45 [INFO ] [com.alibaba.druid.pool.DruidDataSource.close:1288] |{dataSource-1} closed
+2017-07-07 10:37:46 [INFO ] [org.eclipse.jetty.server.handler.ContextHandler.doStop:843] |stopped o.s.b.c.e.j.JettyEmbeddedWebAppContext{/,file:/Users/zouchanglong/Documents/dev_work/async_notify_20170531/src/main/webapp/}
+2017-07-07 10:37:46 [INFO ] [com.alibaba.druid.pool.DruidDataSource.init:638] |{dataSource-2} inited
+2017-07-07 10:37:46 [ERROR] [org.springframework.boot.SpringApplication.reportFailure:838] |Application startup failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'com.dangdang.ddframe.job.lite.spring.schedule.SpringJobScheduler#0': Invocation of init method failed; nested exception is java.lang.RuntimeException: CronExpression '0 */2* * * ?' is invalid.
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1578)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:545)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:776)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:861)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:541)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:759)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:369)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:313)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1185)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1174)
+	at com.qbao.pay.notify.NotifyApplication.main(NotifyApplication.java:66)
+Caused by: java.lang.RuntimeException: CronExpression '0 */2* * * ?' is invalid.
+	at org.quartz.CronScheduleBuilder.cronSchedule(CronScheduleBuilder.java:111)
+	at com.dangdang.ddframe.job.lite.internal.schedule.JobScheduleController.createTrigger(JobScheduleController.java:83)
+	at com.dangdang.ddframe.job.lite.internal.schedule.JobScheduleController.scheduleJob(JobScheduleController.java:58)
+	at com.dangdang.ddframe.job.lite.api.JobScheduler.init(JobScheduler.java:86)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeCustomInitMethod(AbstractAutowireCapableBeanFactory.java:1706)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1645)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1574)
+	... 16 common frames omitted
+Caused by: java.text.ParseException: Illegal cron expression format (java.lang.NumberFormatException: For input string: "2*")
+	at org.quartz.CronExpression.buildExpression(CronExpression.java:518)
+	at org.quartz.CronExpression.<init>(CronExpression.java:276)
+	at org.quartz.CronScheduleBuilder.cronSchedule(CronScheduleBuilder.java:107)
+	... 26 common frames omitted
+2017-07-07 10:37:52 [INFO ] [org.quartz.plugins.management.ShutdownHookPlugin.run:126] |Shutting down Quartz...
+2017-07-07 10:37:52 [INFO ] [org.quartz.core.QuartzScheduler.shutdown:694] |Scheduler DEFAULT.myElasticJob_$_NON_CLUSTERED shutting down.
+2017-07-07 10:37:52 [INFO ] [org.quartz.core.QuartzScheduler.standby:613] |Scheduler DEFAULT.myElasticJob_$_NON_CLUSTERED paused.
+2017-07-07 10:37:53 [INFO ] [org.quartz.core.QuartzScheduler.shutdown:771] |Scheduler DEFAULT.myElasticJob_$_NON_CLUSTERED shutdown complete.
+2017-07-07 10:38:14 [INFO ] [com.qbao.pay.notify.NotifyApplication.logStarting:48] |Starting NotifyApplication on MacBook-Pro.local with PID 1341 (/Users/zouchanglong/Documents/dev_work/async_notify_20170531/target/classes started by zouchanglong in /Users/zouchanglong/Documents/dev_work/async_notify_20170531)
+2017-07-07 10:38:14 [INFO ] [com.qbao.pay.notify.NotifyApplication.logStartupProfileInfo:659] |No active profile set, falling back to default profiles: default
+2017-07-07 10:38:14 [INFO ] [org.hibernate.validator.internal.util.Version.<clinit>:30] |HV000001: Hibernate Validator 5.2.4.Final
+2017-07-07 10:38:15 [WARN ] [org.mybatis.spring.mapper.ClassPathMapperScanner.doScan:167] |No MyBatis mapper was found in '[com.qbao.pay.notify]' package. Please check your configuration.
+2017-07-07 10:38:17 [INFO ] [org.eclipse.jetty.server.Server.doStart:272] |jetty-8.1.19.v20160209
+2017-07-07 10:38:17 [INFO ] [application.log:2040] |Initializing Spring embedded WebApplicationContext
+2017-07-07 10:38:17 [INFO ] [com.alibaba.druid.pool.DruidDataSource.init:638] |{dataSource-1} inited
+2017-07-07 10:38:18 [INFO ] [org.quartz.impl.StdSchedulerFactory.instantiate:1172] |Using default implementation for ThreadExecutor
+2017-07-07 10:38:18 [INFO ] [org.quartz.core.SchedulerSignalerImpl.<init>:61] |Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2017-07-07 10:38:18 [INFO ] [org.quartz.core.QuartzScheduler.<init>:240] |Quartz Scheduler v.2.2.3 created.
+2017-07-07 10:38:18 [INFO ] [org.quartz.core.QuartzScheduler.setJobFactory:2311] |JobFactory set to: com.dangdang.ddframe.job.lite.spring.schedule.SpringJobFactory@6405587a
+2017-07-07 10:38:18 [INFO ] [org.quartz.plugins.management.ShutdownHookPlugin.initialize:120] |Registering Quartz shutdown hook.
+2017-07-07 10:38:18 [INFO ] [org.quartz.simpl.RAMJobStore.initialize:155] |RAMJobStore initialized.
+2017-07-07 10:38:18 [INFO ] [org.quartz.core.QuartzScheduler.initialize:305] |Scheduler meta-data: Quartz Scheduler (v2.2.3) 'DEFAULT.myElasticJob' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 1 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2017-07-07 10:38:18 [INFO ] [org.quartz.impl.StdSchedulerFactory.instantiate:1327] |Quartz scheduler 'DEFAULT.myElasticJob' initialized from an externally provided properties instance.
+2017-07-07 10:38:18 [INFO ] [org.quartz.impl.StdSchedulerFactory.instantiate:1331] |Quartz scheduler version: 2.2.3
+2017-07-07 10:38:18 [INFO ] [com.alibaba.druid.pool.DruidDataSource.close:1288] |{dataSource-1} closed
+2017-07-07 10:38:19 [INFO ] [org.eclipse.jetty.server.handler.ContextHandler.doStop:843] |stopped o.s.b.c.e.j.JettyEmbeddedWebAppContext{/,file:/Users/zouchanglong/Documents/dev_work/async_notify_20170531/src/main/webapp/}
+2017-07-07 10:38:19 [INFO ] [com.alibaba.druid.pool.DruidDataSource.init:638] |{dataSource-2} inited
+2017-07-07 10:38:19 [ERROR] [org.springframework.boot.SpringApplication.reportFailure:838] |Application startup failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'com.dangdang.ddframe.job.lite.spring.schedule.SpringJobScheduler#0': Invocation of init method failed; nested exception is java.lang.RuntimeException: CronExpression '0 */2* * * ?' is invalid.
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1578)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:545)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:776)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:861)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:541)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:759)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:369)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:313)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1185)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1174)
+	at com.qbao.pay.notify.NotifyApplication.main(NotifyApplication.java:66)
+Caused by: java.lang.RuntimeException: CronExpression '0 */2* * * ?' is invalid.
+	at org.quartz.CronScheduleBuilder.cronSchedule(CronScheduleBuilder.java:111)
+	at com.dangdang.ddframe.job.lite.internal.schedule.JobScheduleController.createTrigger(JobScheduleController.java:83)
+	at com.dangdang.ddframe.job.lite.internal.schedule.JobScheduleController.scheduleJob(JobScheduleController.java:58)
+	at com.dangdang.ddframe.job.lite.api.JobScheduler.init(JobScheduler.java:86)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeCustomInitMethod(AbstractAutowireCapableBeanFactory.java:1706)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1645)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1574)
+	... 16 common frames omitted
+Caused by: java.text.ParseException: Illegal cron expression format (java.lang.NumberFormatException: For input string: "2*")
+	at org.quartz.CronExpression.buildExpression(CronExpression.java:518)
+	at org.quartz.CronExpression.<init>(CronExpression.java:276)
+	at org.quartz.CronScheduleBuilder.cronSchedule(CronScheduleBuilder.java:107)
+	... 26 common frames omitted
+2017-07-07 10:38:29 [INFO ] [org.quartz.plugins.management.ShutdownHookPlugin.run:126] |Shutting down Quartz...
+2017-07-07 10:38:29 [INFO ] [org.quartz.core.QuartzScheduler.shutdown:694] |Scheduler DEFAULT.myElasticJob_$_NON_CLUSTERED shutting down.
+2017-07-07 10:38:29 [INFO ] [org.quartz.core.QuartzScheduler.standby:613] |Scheduler DEFAULT.myElasticJob_$_NON_CLUSTERED paused.
+2017-07-07 10:38:29 [INFO ] [org.quartz.core.QuartzScheduler.shutdown:771] |Scheduler DEFAULT.myElasticJob_$_NON_CLUSTERED shutdown complete.
+2017-07-07 10:41:20 [INFO ] [com.qbao.pay.notify.NotifyApplication.logStarting:48] |Starting NotifyApplication on MacBook-Pro.local with PID 1347 (/Users/zouchanglong/Documents/dev_work/async_notify_20170531/target/classes started by zouchanglong in /Users/zouchanglong/Documents/dev_work/async_notify_20170531)
+2017-07-07 10:41:20 [INFO ] [com.qbao.pay.notify.NotifyApplication.logStartupProfileInfo:659] |No active profile set, falling back to default profiles: default
+2017-07-07 10:41:20 [INFO ] [org.hibernate.validator.internal.util.Version.<clinit>:30] |HV000001: Hibernate Validator 5.2.4.Final
+2017-07-07 10:41:22 [WARN ] [org.mybatis.spring.mapper.ClassPathMapperScanner.doScan:167] |No MyBatis mapper was found in '[com.qbao.pay.notify]' package. Please check your configuration.
+2017-07-07 10:41:27 [ERROR] [org.apache.curator.framework.imps.CuratorFrameworkImpl.logError:566] |Background exception was not retry-able or retry gave up
+java.net.UnknownHostException:  127.0.0.1: nodename nor servname provided, or not known
+	at java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.net.InetAddress$1.lookupAllHostAddr(InetAddress.java:901)
+	at java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1293)
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1246)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1162)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1098)
+	at org.apache.zookeeper.client.StaticHostProvider.<init>(StaticHostProvider.java:61)
+	at org.apache.zookeeper.ZooKeeper.<init>(ZooKeeper.java:445)
+	at org.apache.curator.utils.DefaultZookeeperFactory.newZooKeeper(DefaultZookeeperFactory.java:29)
+	at org.apache.curator.framework.imps.CuratorFrameworkImpl$2.newZooKeeper(CuratorFrameworkImpl.java:150)
+	at org.apache.curator.HandleHolder$1.getZooKeeper(HandleHolder.java:94)
+	at org.apache.curator.HandleHolder.getZooKeeper(HandleHolder.java:55)
+	at org.apache.curator.ConnectionState.reset(ConnectionState.java:218)
+	at org.apache.curator.ConnectionState.start(ConnectionState.java:103)
+	at org.apache.curator.CuratorZookeeperClient.start(CuratorZookeeperClient.java:190)
+	at org.apache.curator.framework.imps.CuratorFrameworkImpl.start(CuratorFrameworkImpl.java:259)
+	at com.dangdang.ddframe.job.reg.zookeeper.ZookeeperRegistryCenter.init(ZookeeperRegistryCenter.java:102)
+	at com.dangdang.ddframe.reg.spring.namespace.SpringZookeeperRegistryCenter.postProcessBeanFactory(SpringZookeeperRegistryCenter.java:69)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:284)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:181)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:681)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:523)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:759)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:369)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:313)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1185)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1174)
+	at com.qbao.pay.notify.NotifyApplication.main(NotifyApplication.java:66)
+2017-07-07 10:41:36 [ERROR] [org.springframework.boot.SpringApplication.reportFailure:838] |Application startup failed
+com.dangdang.ddframe.job.reg.exception.RegException: org.apache.zookeeper.KeeperException$OperationTimeoutException: KeeperErrorCode = OperationTimeout
+	at com.dangdang.ddframe.job.reg.exception.RegExceptionHandler.handleException(RegExceptionHandler.java:49)
+	at com.dangdang.ddframe.job.reg.zookeeper.ZookeeperRegistryCenter.init(ZookeeperRegistryCenter.java:114)
+	at com.dangdang.ddframe.reg.spring.namespace.SpringZookeeperRegistryCenter.postProcessBeanFactory(SpringZookeeperRegistryCenter.java:69)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:284)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:181)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:681)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:523)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:759)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:369)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:313)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1185)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1174)
+	at com.qbao.pay.notify.NotifyApplication.main(NotifyApplication.java:66)
+Caused by: org.apache.zookeeper.KeeperException$OperationTimeoutException: KeeperErrorCode = OperationTimeout
+	at com.dangdang.ddframe.job.reg.zookeeper.ZookeeperRegistryCenter.init(ZookeeperRegistryCenter.java:106)
+	... 12 common frames omitted
+2017-07-07 10:41:36 [ERROR] [org.apache.curator.CuratorZookeeperClient.close:208] |
+java.io.IOException: java.net.UnknownHostException:  127.0.0.1
+	at org.apache.curator.ConnectionState.close(ConnectionState.java:119)
+	at org.apache.curator.CuratorZookeeperClient.close(CuratorZookeeperClient.java:203)
+	at org.apache.curator.framework.imps.CuratorFrameworkImpl.close(CuratorFrameworkImpl.java:321)
+	at com.google.common.io.Closeables.close(Closeables.java:79)
+	at org.apache.curator.utils.CloseableUtils.closeQuietly(CloseableUtils.java:59)
+	at com.dangdang.ddframe.job.reg.zookeeper.ZookeeperRegistryCenter.close(ZookeeperRegistryCenter.java:149)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.invokeCustomDestroyMethod(DisposableBeanAdapter.java:364)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:287)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:578)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:554)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:976)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:523)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:983)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1028)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1004)
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:956)
+	at org.springframework.boot.SpringApplication.handleRunFailure(SpringApplication.java:815)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:324)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1185)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1174)
+	at com.qbao.pay.notify.NotifyApplication.main(NotifyApplication.java:66)
+Caused by: java.net.UnknownHostException:  127.0.0.1
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1250)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1162)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1098)
+	at org.apache.zookeeper.client.StaticHostProvider.<init>(StaticHostProvider.java:61)
+	at org.apache.zookeeper.ZooKeeper.<init>(ZooKeeper.java:445)
+	at org.apache.curator.utils.DefaultZookeeperFactory.newZooKeeper(DefaultZookeeperFactory.java:29)
+	at org.apache.curator.framework.imps.CuratorFrameworkImpl$2.newZooKeeper(CuratorFrameworkImpl.java:150)
+	at org.apache.curator.HandleHolder$1.getZooKeeper(HandleHolder.java:94)
+	at org.apache.curator.HandleHolder.internalClose(HandleHolder.java:128)
+	at org.apache.curator.HandleHolder.closeAndClear(HandleHolder.java:71)
+	at org.apache.curator.ConnectionState.close(ConnectionState.java:114)
+	... 24 common frames omitted
+2017-07-07 10:56:15 [INFO ] [com.qbao.pay.notify.NotifyApplication.logStarting:48] |Starting NotifyApplication on MacBook-Pro.local with PID 1492 (/Users/zouchanglong/Documents/dev_work/async_notify_20170531/target/classes started by zouchanglong in /Users/zouchanglong/Documents/dev_work/async_notify_20170531)
+2017-07-07 10:56:15 [INFO ] [com.qbao.pay.notify.NotifyApplication.logStartupProfileInfo:659] |No active profile set, falling back to default profiles: default
+2017-07-07 10:56:15 [INFO ] [org.hibernate.validator.internal.util.Version.<clinit>:30] |HV000001: Hibernate Validator 5.2.4.Final
+2017-07-07 10:56:16 [WARN ] [org.mybatis.spring.mapper.ClassPathMapperScanner.doScan:167] |No MyBatis mapper was found in '[com.qbao.pay.notify]' package. Please check your configuration.
+2017-07-07 10:56:17 [ERROR] [org.apache.curator.framework.imps.CuratorFrameworkImpl.logError:566] |Background exception was not retry-able or retry gave up
+java.net.UnknownHostException:  127.0.0.1: nodename nor servname provided, or not known
+	at java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.net.InetAddress$1.lookupAllHostAddr(InetAddress.java:901)
+	at java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1293)
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1246)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1162)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1098)
+	at org.apache.zookeeper.client.StaticHostProvider.<init>(StaticHostProvider.java:61)
+	at org.apache.zookeeper.ZooKeeper.<init>(ZooKeeper.java:445)
+	at org.apache.curator.utils.DefaultZookeeperFactory.newZooKeeper(DefaultZookeeperFactory.java:29)
+	at org.apache.curator.framework.imps.CuratorFrameworkImpl$2.newZooKeeper(CuratorFrameworkImpl.java:150)
+	at org.apache.curator.HandleHolder$1.getZooKeeper(HandleHolder.java:94)
+	at org.apache.curator.HandleHolder.getZooKeeper(HandleHolder.java:55)
+	at org.apache.curator.ConnectionState.reset(ConnectionState.java:218)
+	at org.apache.curator.ConnectionState.start(ConnectionState.java:103)
+	at org.apache.curator.CuratorZookeeperClient.start(CuratorZookeeperClient.java:190)
+	at org.apache.curator.framework.imps.CuratorFrameworkImpl.start(CuratorFrameworkImpl.java:259)
+	at com.dangdang.ddframe.job.reg.zookeeper.ZookeeperRegistryCenter.init(ZookeeperRegistryCenter.java:102)
+	at com.dangdang.ddframe.reg.spring.namespace.SpringZookeeperRegistryCenter.postProcessBeanFactory(SpringZookeeperRegistryCenter.java:69)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:284)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:181)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:681)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:523)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:759)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:369)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:313)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1185)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1174)
+	at com.qbao.pay.notify.NotifyApplication.main(NotifyApplication.java:66)
+2017-07-07 10:56:26 [ERROR] [org.springframework.boot.SpringApplication.reportFailure:838] |Application startup failed
+com.dangdang.ddframe.job.reg.exception.RegException: org.apache.zookeeper.KeeperException$OperationTimeoutException: KeeperErrorCode = OperationTimeout
+	at com.dangdang.ddframe.job.reg.exception.RegExceptionHandler.handleException(RegExceptionHandler.java:49)
+	at com.dangdang.ddframe.job.reg.zookeeper.ZookeeperRegistryCenter.init(ZookeeperRegistryCenter.java:114)
+	at com.dangdang.ddframe.reg.spring.namespace.SpringZookeeperRegistryCenter.postProcessBeanFactory(SpringZookeeperRegistryCenter.java:69)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:284)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:181)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:681)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:523)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:759)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:369)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:313)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1185)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1174)
+	at com.qbao.pay.notify.NotifyApplication.main(NotifyApplication.java:66)
+Caused by: org.apache.zookeeper.KeeperException$OperationTimeoutException: KeeperErrorCode = OperationTimeout
+	at com.dangdang.ddframe.job.reg.zookeeper.ZookeeperRegistryCenter.init(ZookeeperRegistryCenter.java:106)
+	... 12 common frames omitted
+2017-07-07 10:56:27 [ERROR] [org.apache.curator.CuratorZookeeperClient.close:208] |
+java.io.IOException: java.net.UnknownHostException:  127.0.0.1
+	at org.apache.curator.ConnectionState.close(ConnectionState.java:119)
+	at org.apache.curator.CuratorZookeeperClient.close(CuratorZookeeperClient.java:203)
+	at org.apache.curator.framework.imps.CuratorFrameworkImpl.close(CuratorFrameworkImpl.java:321)
+	at com.google.common.io.Closeables.close(Closeables.java:79)
+	at org.apache.curator.utils.CloseableUtils.closeQuietly(CloseableUtils.java:59)
+	at com.dangdang.ddframe.job.reg.zookeeper.ZookeeperRegistryCenter.close(ZookeeperRegistryCenter.java:149)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.invokeCustomDestroyMethod(DisposableBeanAdapter.java:364)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:287)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:578)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:554)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:976)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:523)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:983)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1028)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1004)
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:956)
+	at org.springframework.boot.SpringApplication.handleRunFailure(SpringApplication.java:815)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:324)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1185)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1174)
+	at com.qbao.pay.notify.NotifyApplication.main(NotifyApplication.java:66)
+Caused by: java.net.UnknownHostException:  127.0.0.1
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1250)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1162)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1098)
+	at org.apache.zookeeper.client.StaticHostProvider.<init>(StaticHostProvider.java:61)
+	at org.apache.zookeeper.ZooKeeper.<init>(ZooKeeper.java:445)
+	at org.apache.curator.utils.DefaultZookeeperFactory.newZooKeeper(DefaultZookeeperFactory.java:29)
+	at org.apache.curator.framework.imps.CuratorFrameworkImpl$2.newZooKeeper(CuratorFrameworkImpl.java:150)
+	at org.apache.curator.HandleHolder$1.getZooKeeper(HandleHolder.java:94)
+	at org.apache.curator.HandleHolder.internalClose(HandleHolder.java:128)
+	at org.apache.curator.HandleHolder.closeAndClear(HandleHolder.java:71)
+	at org.apache.curator.ConnectionState.close(ConnectionState.java:114)
+	... 24 common frames omitted
+2017-07-07 10:59:05 [INFO ] [com.qbao.pay.notify.NotifyApplication.logStarting:48] |Starting NotifyApplication on MacBook-Pro.local with PID 1516 (/Users/zouchanglong/Documents/dev_work/async_notify_20170531/target/classes started by zouchanglong in /Users/zouchanglong/Documents/dev_work/async_notify_20170531)
+2017-07-07 10:59:05 [INFO ] [com.qbao.pay.notify.NotifyApplication.logStartupProfileInfo:659] |No active profile set, falling back to default profiles: default
+2017-07-07 10:59:05 [INFO ] [org.hibernate.validator.internal.util.Version.<clinit>:30] |HV000001: Hibernate Validator 5.2.4.Final
+2017-07-07 10:59:07 [WARN ] [org.mybatis.spring.mapper.ClassPathMapperScanner.doScan:167] |No MyBatis mapper was found in '[com.qbao.pay.notify]' package. Please check your configuration.
+2017-07-07 10:59:08 [INFO ] [org.eclipse.jetty.server.Server.doStart:272] |jetty-8.1.19.v20160209
+2017-07-07 10:59:08 [INFO ] [application.log:2040] |Initializing Spring embedded WebApplicationContext
+2017-07-07 10:59:08 [INFO ] [com.alibaba.druid.pool.DruidDataSource.init:638] |{dataSource-1} inited
+2017-07-07 10:59:09 [INFO ] [org.quartz.impl.StdSchedulerFactory.instantiate:1172] |Using default implementation for ThreadExecutor
+2017-07-07 10:59:09 [INFO ] [org.quartz.core.SchedulerSignalerImpl.<init>:61] |Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2017-07-07 10:59:09 [INFO ] [org.quartz.core.QuartzScheduler.<init>:240] |Quartz Scheduler v.2.2.3 created.
+2017-07-07 10:59:09 [INFO ] [org.quartz.core.QuartzScheduler.setJobFactory:2311] |JobFactory set to: com.dangdang.ddframe.job.lite.spring.schedule.SpringJobFactory@42548b72
+2017-07-07 10:59:09 [INFO ] [org.quartz.plugins.management.ShutdownHookPlugin.initialize:120] |Registering Quartz shutdown hook.
+2017-07-07 10:59:09 [INFO ] [org.quartz.simpl.RAMJobStore.initialize:155] |RAMJobStore initialized.
+2017-07-07 10:59:09 [INFO ] [org.quartz.core.QuartzScheduler.initialize:305] |Scheduler meta-data: Quartz Scheduler (v2.2.3) 'DEFAULT.demoSimpleSpringJob' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 1 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2017-07-07 10:59:09 [INFO ] [org.quartz.impl.StdSchedulerFactory.instantiate:1327] |Quartz scheduler 'DEFAULT.demoSimpleSpringJob' initialized from an externally provided properties instance.
+2017-07-07 10:59:09 [INFO ] [org.quartz.impl.StdSchedulerFactory.instantiate:1331] |Quartz scheduler version: 2.2.3
+2017-07-07 10:59:09 [INFO ] [org.quartz.core.QuartzScheduler.start:575] |Scheduler DEFAULT.demoSimpleSpringJob_$_NON_CLUSTERED started.
+2017-07-07 10:59:11 [INFO ] [com.qbao.pay.notify.listener.AsyncNotifyCallbackListener.asyncNotifyListener:56] |异步回调MQ消息内容：(Body:'{"notifyUrl":"http://192.168.82.140:8081/test/indexGet.html","outTradeNo":"882790350211661824","result":{"buyerId":30000604,"groupCode":"G002","inputCharset":"UTF-8","outTradeNo":"20170706000001","payBqAmount":6,"payRmbAmount":20,"payTotalAmount":26,"payTradeNo":"882790350211661824","payTradeTime":"20170706103637","respCode":"100000","respMsg":"成功","sellerId":104493795,"signCode":"koODM_n7WHE_dXlQNUJD-uCM0uHjbhHBDKLDzvwO3I0Y8maCFqyqPJ8FSeAMOPIMHBKAPQ0RoaXEzNehtpYpmgwakNQNN1orbdC3lqCzQT6ITy7COP8iaSJAgW9OIysBNmBYJF-GJ2MK3tN9qEdY9FD100U_WSx2c0mubsSmPb8","signType":"RSA","tradeTime":"20170706000001"}}' MessageProperties [headers={}, timestamp=null, messageId=null, userId=null, receivedUserId=null, appId=null, clusterId=null, type=null, correlationId=null, correlationIdString=null, replyTo=null, contentType=text/plain, contentEncoding=UTF-8, contentLength=0, deliveryMode=null, receivedDeliveryMode=PERSISTENT, expiration=null, priority=0, redelivered=false, receivedExchange=trade.async.callback.exchange, receivedRoutingKey=trade.async.callback.routeKey, receivedDelay=null, deliveryTag=1, messageCount=0, consumerTag=amq.ctag-zDNu_nZIWynpBMmO-5hptw, consumerQueue=trade.async.callback.queue])
+2017-07-07 10:59:11 [INFO ] [application.log:2040] |Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-07-07 10:59:12 [INFO ] [org.eclipse.jetty.server.AbstractConnector.doStart:338] |Started SelectChannelConnector@0.0.0.0:8080
+2017-07-07 10:59:12 [INFO ] [com.qbao.pay.notify.NotifyApplication.logStarted:57] |Started NotifyApplication in 7.502 seconds (JVM running for 7.921)
+2017-07-07 10:59:38 [INFO ] [org.quartz.plugins.management.ShutdownHookPlugin.run:126] |Shutting down Quartz...
+2017-07-07 10:59:38 [INFO ] [org.quartz.core.QuartzScheduler.shutdown:694] |Scheduler DEFAULT.demoSimpleSpringJob_$_NON_CLUSTERED shutting down.
+2017-07-07 10:59:38 [INFO ] [org.quartz.core.QuartzScheduler.standby:613] |Scheduler DEFAULT.demoSimpleSpringJob_$_NON_CLUSTERED paused.
+2017-07-07 10:59:38 [INFO ] [org.quartz.core.QuartzScheduler.shutdown:771] |Scheduler DEFAULT.demoSimpleSpringJob_$_NON_CLUSTERED shutdown complete.
+2017-07-07 10:59:39 [INFO ] [com.alibaba.druid.pool.DruidDataSource.close:1288] |{dataSource-1} closed
+2017-07-07 10:59:39 [INFO ] [application.log:2040] |Destroying Spring FrameworkServlet 'dispatcherServlet'
+2017-07-07 10:59:39 [INFO ] [org.eclipse.jetty.server.handler.ContextHandler.doStop:843] |stopped o.s.b.c.e.j.JettyEmbeddedWebAppContext{/,file:/Users/zouchanglong/Documents/dev_work/async_notify_20170531/src/main/webapp/}

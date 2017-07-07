@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.qbao.pay.notify.dao.mapper.AsyncNotifyDetailMapper" >
+  <resultMap id="BaseResultMap" type="com.qbao.pay.notify.entity.AsyncNotifyDetail" >
+    <id column="async_notify_id" property="asyncNotifyId" jdbcType="BIGINT" />
+    <result column="channel_code" property="channelCode" jdbcType="VARCHAR" />
+    <result column="out_trade_no" property="outTradeNo" jdbcType="VARCHAR" />
+    <result column="async_type" property="asyncType" jdbcType="TINYINT" />
+    <result column="async_status" property="asyncStatus" jdbcType="TINYINT" />
+    <result column="notify_url" property="notifyUrl" jdbcType="VARCHAR" />
+    <result column="notify_message" property="notifyMessage" jdbcType="VARCHAR" />
+    <result column="create_time" property="createTime" jdbcType="TIMESTAMP" />
+    <result column="modify_time" property="modifyTime" jdbcType="TIMESTAMP" />
+  </resultMap>
+ 
+  <sql id="Base_Column_List" >
+    async_notify_id, channel_code, out_trade_no, async_type, async_status, notify_url, 
+    notify_message, create_time, modify_time
+  </sql>
+  
+  <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.Long" >
+    SELECT 
+    <include refid="Base_Column_List" />
+    FROM async_notify_detail
+    where async_notify_id = #{asyncNotifyId,jdbcType=BIGINT}
+  </select>
+  <!-- 根据关键字查询异步通知明细 -->
+  <select id="queryDetailByKey" resultMap="BaseResultMap" parameterType="com.qbao.pay.notify.entity.AsyncNotifyDetail" >
+    SELECT 
+    <include refid="Base_Column_List" />
+    FROM async_notify_detail
+    <where>
+		1=1
+		<if test="outTradeNo != null and outTradeNo != ''">
+			 AND out_trade_no = #{outTradeNo,jdbcType=VARCHAR}
+		</if>
+		<if test="channelCode != null and channelCode != ''">
+			AND channel_code = #{channelCode,jdbcType=VARCHAR}
+		</if>
+		<if test="asyncStatus != null and asyncStatus != ''">
+			AND async_status = #{asyncStatus,jdbcType=TINYINT}
+		</if>
+		<if test="startNum !=null and endNum !=null">  
+	        limit #{startNum},#{endNum}  
+	    </if>  
+	</where>
+  </select>
+  <!-- 查询明细总数 -->
+  <select id="getCount" resultType="java.lang.Integer" parameterType="com.qbao.pay.notify.entity.AsyncNotifyDetail" >
+		SELECT count(*) FROM async_notify_detail
+		<where>
+		1=1
+		<if test="outTradeNo != null and outTradeNo != ''">
+			 AND out_trade_no = #{outTradeNo,jdbcType=VARCHAR}
+		</if>
+		<if test="channelCode != null and channelCode != ''">
+			AND channel_code = #{channelCode,jdbcType=VARCHAR}
+		</if>
+		<if test="asyncStatus != null and asyncStatus != ''">
+			AND async_status = #{asyncStatus,jdbcType=TINYINT}
+		</if>
+	</where>
+    </select>
+  
+  <!-- 根据业务流水号查询异步通知明细 -->
+  <select id="selectByOutTradNo" resultMap="BaseResultMap" parameterType="java.lang.String" >
+    SELECT 
+    <include refid="Base_Column_List" />
+    FROM async_notify_detail
+    where out_trade_no = #{outTradeNo,jdbcType=VARCHAR}
+  </select>
+ 
+  <!-- 新增异步通知明细记录 -->
+  <insert id="insertAsyncNotify" parameterType="com.qbao.pay.notify.entity.AsyncNotifyDetail" useGeneratedKeys="true" keyProperty="asyncNotifyId" >
+    INSERT INTO async_notify_detail (async_notify_id, channel_code, out_trade_no, async_type, async_status, notify_url, 
+      notify_message, create_time, modify_time
+      )
+    VALUES (#{asyncNotifyId,jdbcType=BIGINT}, #{channelCode,jdbcType=VARCHAR}, #{outTradeNo,jdbcType=VARCHAR}, 
+      #{asyncType,jdbcType=TINYINT}, #{asyncStatus,jdbcType=TINYINT}, #{notifyUrl,jdbcType=VARCHAR}, 
+      #{notifyMessage,jdbcType=VARCHAR}, NOW(), NOW()
+      )
+  </insert>
+  	<!-- 更新异步回调明细表 -->
+  <update id="updateNotifyDetail" parameterType="com.qbao.pay.notify.entity.AsyncNotifyDetail" >
+    UPDATE async_notify_detail
+    <set >
+      <if test="channelCode != null" >
+        channel_code = #{channelCode,jdbcType=VARCHAR},
+      </if>
+      <if test="outTradeNo != null" >
+        out_trade_no = #{outTradeNo,jdbcType=VARCHAR},
+      </if>
+      <if test="asyncType != null" >
+        async_type = #{asyncType,jdbcType=TINYINT},
+      </if>
+      <if test="asyncStatus != null" >
+        async_status = #{asyncStatus,jdbcType=TINYINT},
+      </if>
+      <if test="notifyUrl != null" >
+        notify_url = #{notifyUrl,jdbcType=VARCHAR},
+      </if>
+      <if test="notifyMessage != null" >
+        notify_message = #{notifyMessage,jdbcType=VARCHAR},
+      </if>
+      <if test="createTime != null" >
+        create_time = #{createTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="modifyTime != null" >
+        modify_time = #{modifyTime,jdbcType=TIMESTAMP},
+      </if>
+    </set>
+    WHERE async_notify_id = #{asyncNotifyId,jdbcType=BIGINT}
+  </update>
+</mapper>

@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="ZH">
+<head>
+<meta charset="UTF-8">
+<title>异步通知明细列表</title>
+<link rel="stylesheet" href="//cdn.bootcss.com/element-ui/1.1.2/theme-default/index.css">
+<script src="//cdn.bootcss.com/vue/2.1.8/vue.min.js"></script>
+<script src="//cdn.bootcss.com/element-ui/1.1.2/index.js"></script>
+<script src="//cdn.bootcss.com/vue-resource/1.0.3/vue-resource.min.js"></script>
+</head>
+<body>
+	<div id="vm">
+		<el-row :gutter="3" style="margin: 10px 0;">
+			数据列表
+		</el-row>
+		<el-row :gutter="3" style="margin: 10px 0;"> 
+			<el-col :span="5"> 
+				<el-input v-model="channelCode" placeholder="渠道编码"></el-input>
+			</el-col> 
+			<el-col :span="5"> 
+				<el-input v-model="outTradeNo" placeholder="业务流水号"></el-input>
+			</el-col>
+			<el-col :span="5"> 
+			    <el-select v-model="asyncStatus" placeholder="请选择">
+				  <el-option v-for="item in options"
+				   :label="item.label" 
+				   :value="item.value">
+				  </el-option>
+				</el-select>
+			</el-col>
+			
+			<el-col :span="5"> 
+				<el-button type="primary" @click.sync="findAll"  :current-page="currentPage" :page-size="10" layout="total, prev, pager, next, jumper" :total="total">
+					查询
+				</el-button>
+			</el-pagination> 
+			</el-col> 
+			
+		</el-row>
+		<el-table border fit :data="tableData" highlight-current-row style="width: 100%;font-size: 12px;"> 
+			<el-table-column type="index" width="60" label="序号"></el-table-column> 
+			<el-table-column 	prop="channelCode" label="渠道编码"></el-table-column> 
+			<el-table-column 	prop="outTradeNo" label="流水号"></el-table-column> 
+			<el-table-column prop=asyncType label="认证类型" :formatter="formatType"></el-table-column> 
+			<el-table-column 	prop="asyncStatus" label="处理状态":formatter="formatStatus"></el-table-column> 
+			<el-table-column prop="createTime.time" label="创建时间" sortable :formatter="formatCreateDate"></el-table-column> 
+			 <el-table-column label="操作" inline-template >
+			 	<p v-if="row.asyncStatus=='30'">
+			 		<el-button type="primary" size="mini" @click.native="sendCurrent(row)">重新发送</el-button>
+			 	</p>
+			</el-table-column>
+		</el-table>
+		<el-col class="toolbar" style="padding:10px;"> 
+			<el-pagination @current-change="findAll" :current-page="currentPage" :page-size="10" layout="total, prev, pager, next, jumper" :total="total"
+				style="float:right">
+			</el-pagination> 
+		</el-col>
+	</div>
+</body>
+<script> 
+	Vue.http.options.emulateJSON = true; 
+	Vue.http.options.emulateHTTP = true; 
+	var vm = new Vue({ 
+		el: '#vm', 
+		data: { 
+			tableData: [], 
+			currentPage: 1, 
+			total: 10, 
+			listLoading: false, 
+			channelCode: null,
+			outTradeNo: null,
+			asyncStatus: null,
+			options: [
+			          { label: '全部', value: '' },
+			          { label: '处理成功', value: '10' },
+			          { label: '处理失败', value: '20' },
+			          { label: '处理中', value: '30' }
+			        ],
+			asyncStatus: ''
+			}, 
+		mounted: function () { 
+			this.findAll(); 
+		}, 
+		methods: { 
+			findAll: function (currentPage) { 
+				this.listLoading = true; 
+				if (!isNaN(currentPage)) { 
+					this.currentPage = currentPage;
+					} 
+				var params_ = { 
+						pageNum: this.currentPage, 
+						pageSize: 10
+				};
+				if (this.channelCode !=null && this.channelCode.trim() != "") { 
+					params_['channelCode'] = this.channelCode; 
+				}
+				if (this.outTradeNo !=null && this.outTradeNo.trim() != "") { 
+					params_['outTradeNo'] = this.outTradeNo; 
+				}
+				if (this.asyncStatus !=null && this.asyncStatus.trim() != "") { 
+					params_['asyncStatus'] = this.asyncStatus; 
+				}
+				this.$http.get("/getNotifyData", { 
+					params: params_
+					}).then(function (response) { 
+						console.log(response.data); 
+						this.total = response.data.count; 
+						this.tableData = []; 
+						for (var key in response.data.list) { 
+							this.$set(this.tableData, key, response.data.list[key]);
+							} 
+						}).catch(
+							function (response) {  console.error(response); }
+						); 
+				this.listLoading = false; 
+				}, 
+				formatDate: function getNowFormatDate(time) { 
+					var date = new Date(time); 
+					var seperator1 = "-"; 
+					var seperator2 = ":"; 
+					var month = date.getMonth() + 1; 
+					var strDate = date.getDate(); 
+					if (month >= 1 && month <= 9) { 
+						month = "0" + month;
+					} 
+					if (strDate >= 0 && strDate <= 9) { 
+						strDate = "0" + strDate;
+					} 
+					var currentdate = date.getFullYear() + seperator1 + month + seperator1 + strDate 
+					+ " " + date.getHours() + seperator2 + date.getMinutes() + seperator2 + date.getSeconds(); 
+					return currentdate; 
+					}, 
+					formatCreateDate: function (row, column) {
+						if (row.createTime != null) { 
+							return this.formatDate(row.createTime); 
+						} else { 
+							return ''; 
+						} 
+					}, 
+				   formatType: function (row, column) { 
+						if (row.asyncType != null) {
+							return row.asyncType == 1 ? '结算' : '退款';
+						} 
+					}, 
+					formatStatus: function (row) { 
+						if (row.asyncStatus != null) {
+							if(row.asyncStatus==10){
+								return '处理成功';
+							}else if(row.asyncStatus==20){
+								return '处理失败';
+							}else if(row.asyncStatus==30){
+								return '处理中';
+							}else{
+								return '未知状态';
+							}
+						} 
+					},
+				sendCurrent: function(row){
+					var asyncNotifyId = row.asyncNotifyId;
+					var params_ = { };
+					if (asyncNotifyId !=null ) { 
+						params_['asyncNotifyId'] = asyncNotifyId; 
+					}
+					this.$http.get("/sendNotifyData", { 
+						params: params_
+						}).then(function (response) { 
+							console.log(response.data); 
+							this.total = response.data.count; 
+							this.tableData = []; 
+							for (var key in response.data.list) { 
+								this.$set(this.tableData, key, response.data.list[key]);
+								} 
+							}).catch(
+								function (response) {  console.error(response); }
+							);
+					}
+				} 
+			}); 
+	</script>
+</html>

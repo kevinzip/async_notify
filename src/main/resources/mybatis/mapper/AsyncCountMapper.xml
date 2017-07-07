@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.qbao.pay.notify.dao.mapper.AsyncCountMapper" >
+  <resultMap id="BaseResultMap" type="com.qbao.pay.notify.entity.AsyncCount" >
+    <id column="async_count_id" property="asyncCountId" jdbcType="BIGINT" />
+    <result column="async_notify_id" property="asyncNotifyId" jdbcType="BIGINT" />
+    <result column="asynnc_times" property="asynncTimes" jdbcType="TINYINT" />
+    <result column="open_flag" property="openFlag" jdbcType="TINYINT" />
+    <result column="create_time" property="createTime" jdbcType="TIMESTAMP" />
+    <result column="modify_time" property="modifyTime" jdbcType="TIMESTAMP" />
+    <result column="send_time" property="sendTime" jdbcType="TIMESTAMP" />
+  </resultMap>
+  
+  <sql id="Base_Column_List" >
+    async_count_id, async_notify_id, asynnc_times, open_flag, create_time, modify_time, 
+    send_time
+  </sql>
+  
+  <!-- 根据ID查询异步通知统计表数据 -->
+  <select id="selectAsyncNotifyById" resultMap="BaseResultMap" parameterType="java.lang.Long" >
+    SELECT 
+    <include refid="Base_Column_List" />
+    FROM async_count
+    WHERE async_notify_id = #{asyncNotifyId,jdbcType=BIGINT}
+  </select>
+  
+   <!-- 查询异步回调失败列表 -->
+  <select id="queryAsyncNotifyList" resultMap="BaseResultMap">
+	SELECT 
+		<include refid="Base_Column_List" />
+    FROM async_count
+    WHERE `open_flag` = '0'
+    AND asynnc_times &lt;= 5
+    AND send_time &lt;= NOW()
+    LIMIT 0, 1000
+  </select>
+  <!--更新异步回调统计表  -->
+  <update id="updateAsyncCountDetail" parameterType="com.qbao.pay.notify.entity.AsyncCount" >
+    update async_count
+    <set >
+      <if test="asyncNotifyId != null" >
+        async_notify_id = #{asyncNotifyId,jdbcType=BIGINT},
+      </if>
+      <if test="asynncTimes != null" >
+        asynnc_times = #{asynncTimes,jdbcType=TINYINT},
+      </if>
+      <if test="openFlag != null" >
+        open_flag = #{openFlag,jdbcType=TINYINT},
+      </if>
+      <if test="createTime != null" >
+        create_time = #{createTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="modifyTime != null" >
+        modify_time = #{modifyTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="sendTime != null" >
+        send_time = #{sendTime,jdbcType=TIMESTAMP},
+      </if>
+    </set>
+    where async_count_id = #{asyncCountId,jdbcType=BIGINT}
+  </update>
+  <!--新增异步通知统计记录  -->
+  <insert id="insertNotifyRecord" parameterType="com.qbao.pay.notify.entity.AsyncCount" >
+    insert into async_count
+    <trim prefix="(" suffix=")" suffixOverrides="," >
+      <if test="asyncCountId != null" >
+        async_count_id,
+      </if>
+      <if test="asyncNotifyId != null" >
+        async_notify_id,
+      </if>
+      <if test="asynncTimes != null" >
+        asynnc_times,
+      </if>
+      <if test="openFlag != null" >
+        open_flag,
+      </if>
+      <if test="createTime != null" >
+        create_time,
+      </if>
+      <if test="modifyTime != null" >
+        modify_time,
+      </if>
+      <if test="sendTime != null" >
+        send_time,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides="," >
+      <if test="asyncCountId != null" >
+        #{asyncCountId,jdbcType=BIGINT},
+      </if>
+      <if test="asyncNotifyId != null" >
+        #{asyncNotifyId,jdbcType=BIGINT},
+      </if>
+      <if test="asynncTimes != null" >
+        #{asynncTimes,jdbcType=TINYINT},
+      </if>
+      <if test="openFlag != null" >
+        #{openFlag,jdbcType=TINYINT},
+      </if>
+      <if test="createTime != null" >
+        #{createTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="modifyTime != null" >
+        #{modifyTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="sendTime != null" >
+        #{sendTime,jdbcType=TIMESTAMP},
+      </if>
+    </trim>
+  </insert>
+</mapper>

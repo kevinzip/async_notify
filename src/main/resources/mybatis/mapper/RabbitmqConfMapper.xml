@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.qbao.pay.notify.dao.mapper.RabbitmqConfMapper" >
+  <resultMap id="BaseResultMap" type="com.qbao.pay.notify.entity.RabbitmqConfEntity" >
+    <id column="mq_id" property="mqId" jdbcType="BIGINT" />
+    <result column="exchange_name" property="exchangeName" jdbcType="VARCHAR" />
+    <result column="queue_name" property="queueName" jdbcType="VARCHAR" />
+    <result column="routing_key" property="routingKey" jdbcType="VARCHAR" />
+    <result column="create_time" property="createTime" jdbcType="TIMESTAMP" />
+  </resultMap>
+  
+  <sql id="Base_Column_List" >
+    mq_id, exchange_name, queue_name, routing_key, create_time
+  </sql>
+  <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="com.qbao.pay.notify.entity.RabbitmqConfEntity" >
+    SELECT 
+    <include refid="Base_Column_List" />
+    FROM rabbitmq_conf
+    <where>
+		1=1
+		<if test="exchangeName != null and exchangeName != ''">
+			 AND exchange_name = #{exchangeName,jdbcType=VARCHAR}
+		</if>
+		<if test="queueName != null and queueName != ''">
+			AND queue_name = #{queueName,jdbcType=VARCHAR}
+		</if>
+		<if test="routingKey != null and routingKey != ''">
+			AND routing_key = #{routingKey,jdbcType=VARCHAR}
+		</if>
+	</where>
+  </select>
+  <!-- 根据关键字查询MQ消息记录 -->
+  <select id="queryDetailByKey" resultMap="BaseResultMap" parameterType="com.qbao.pay.notify.entity.RabbitmqConfEntity" >
+    SELECT 
+    <include refid="Base_Column_List" />
+    FROM rabbitmq_conf
+    <where>
+		1=1
+		<if test="queueName != null and queueName != ''">
+			 AND queue_name = #{queueName,jdbcType=VARCHAR}
+		</if>
+		<if test="exchangeName != null and exchangeName != ''">
+			AND exchange_name = #{exchangeName,jdbcType=VARCHAR}
+		</if>
+		<if test="routingKey != null and routingKey != ''">
+			AND routing_key = #{routingKey,jdbcType=VARCHAR}
+		</if>
+		<if test="startNum !=null and endNum !=null">  
+	        limit #{startNum},#{endNum}  
+	    </if>  
+	</where>
+  </select>
+  
+  <!-- 查询明细总数 -->
+  <select id="getCount" resultType="java.lang.Integer" parameterType="com.qbao.pay.notify.entity.RabbitmqConfEntity" >
+		SELECT count(*) FROM rabbitmq_conf
+		<where>
+		1=1
+		<if test="queueName != null and queueName != ''">
+			 AND queue_name = #{queueName,jdbcType=VARCHAR}
+		</if>
+		<if test="exchangeName != null and exchangeName != ''">
+			AND exchange_name = #{exchangeName,jdbcType=VARCHAR}
+		</if>
+		<if test="routingKey != null and routingKey != ''">
+			AND routing_key = #{routingKey,jdbcType=VARCHAR}
+		</if>
+	</where>
+  </select>
+  
+  <insert id="insertRabbitMqConf" parameterType="com.qbao.pay.notify.entity.RabbitmqConfEntity" >
+    INSERT INTO rabbitmq_conf (mq_id, exchange_name, queue_name, routing_key, create_time)
+    VALUES (#{mqId,jdbcType=BIGINT}, #{exchangeName,jdbcType=VARCHAR}, #{queueName,jdbcType=VARCHAR}, 
+      #{routingKey,jdbcType=VARCHAR}, #{createTime,jdbcType=TIMESTAMP})
+  </insert>
+  
+  <delete id="deleteRabbitMqConf" parameterType="java.lang.Long" >
+         DELETE FROM rabbitmq_conf WHERE mq_id = #{mqId}
+  </delete>
+  
+</mapper>

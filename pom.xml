@@ -1,0 +1,248 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.qbao.pay.async</groupId>
+  <artifactId>async_notify</artifactId>
+  <packaging>war</packaging>
+  <version>1.0.1</version>
+  <name>async_notify Maven Webapp</name>
+  <url>http://maven.apache.org</url>
+  
+  <properties>
+  	<java.version>1.7</java.version>
+  	<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+  
+  <parent>
+  	<groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-parent</artifactId>
+    <version>1.4.0.RELEASE</version>
+  </parent>
+  
+  <dependencies>
+  	  <dependency>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-starter-web</artifactId>
+<!--       <exclusions> -->
+<!--       	<exclusion> -->
+<!--       		<groupId>org.springframework.boot</groupId> -->
+<!--       		<artifactId>spring-boot-starter-tomcat</artifactId> -->
+<!--       	</exclusion> -->
+<!--       </exclusions> -->
+    </dependency>
+    
+<!--     <dependency> -->
+<!--       <groupId>org.springframework.boot</groupId> -->
+<!--       <artifactId>spring-boot-starter-jetty</artifactId> -->
+<!--       <scope>provided</scope> -->
+<!--     </dependency> -->
+    
+    <dependency>
+	    <groupId>org.springframework.boot</groupId>
+	    <artifactId>spring-boot-starter-aop</artifactId>
+	</dependency>
+    
+    <dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-redis</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-amqp</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>org.mybatis.spring.boot</groupId>
+			<artifactId>mybatis-spring-boot-starter</artifactId>
+			<version>1.1.1</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-logging</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-test</artifactId>
+			<scope>test</scope>
+		</dependency>
+		
+		
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-actuator</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.github.pagehelper</groupId>
+			<artifactId>pagehelper</artifactId>
+			<version>4.1.6</version>
+		</dependency>
+		<dependency>
+			<groupId>com.alibaba</groupId>
+			<artifactId>fastjson</artifactId>
+			<version>1.2.17</version>
+		</dependency>
+		<dependency>
+			<groupId>com.alibaba</groupId>
+			<artifactId>druid</artifactId>
+			<version>1.0.5</version>
+		</dependency>
+		<dependency>
+			<groupId>mysql</groupId>
+			<artifactId>mysql-connector-java</artifactId>
+		</dependency>
+		<dependency>
+		    <groupId>commons-beanutils</groupId>
+		    <artifactId>commons-beanutils</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-lang3</artifactId>
+			<version>3.1</version>
+		</dependency>
+		<dependency>
+		    <groupId>commons-lang</groupId>
+		    <artifactId>commons-lang</artifactId>
+		    <version>2.5</version>
+		</dependency>
+		<dependency>
+		    <groupId>net.sf.ezmorph</groupId>
+		    <artifactId>ezmorph</artifactId>
+		    <version>1.0.6</version>
+		</dependency>
+		<dependency>
+		    <groupId>net.sf.json-lib</groupId>
+		    <artifactId>json-lib</artifactId>
+		    <version>2.4</version>
+		    <classifier>jdk15</classifier><!--指定jdk版本-->    
+		</dependency>
+		<dependency>
+			<groupId>org.apache.httpcomponents</groupId>
+			<artifactId>httpclient</artifactId>
+		</dependency>
+		<dependency>  
+		    <groupId>org.quartz-scheduler</groupId>  
+		    <artifactId>quartz</artifactId>  
+		    <version>2.2.3</version>  
+		</dependency>  
+		<dependency>  
+		        <groupId>org.quartz-scheduler</groupId>  
+		    <artifactId>quartz-jobs</artifactId>  
+		    <version>2.2.3</version>  
+		</dependency>
+		
+		<dependency>  
+		    <groupId>com.dangdang</groupId>  
+		    <artifactId>elastic-job-lite-core</artifactId>  
+		    <version>2.0.0</version>  
+		</dependency>  
+		<!-- 使用springframework自定义命名空间时引入 -->  
+		<dependency>  
+		    <groupId>com.dangdang</groupId>  
+		    <artifactId>elastic-job-lite-spring</artifactId>  
+		    <version>2.0.0</version>  
+		</dependency>  
+  </dependencies>
+  
+  <repositories>
+		<repository>
+			<id>thirdparty</id>
+			<url>http://192.168.7.246:8081/nexus/content/repositories/thirdparty/</url>
+			<releases>
+				<enabled>true</enabled>
+			</releases>
+			<snapshots>
+				<enabled>false</enabled>
+			</snapshots>
+		</repository>
+
+		<repository>
+			<id>qbao_releases</id>
+			<url>http://192.168.7.246:8081/nexus/content/repositories/releases/</url>
+		</repository>
+
+		<repository>
+			<id>offical</id>
+			<name>Maven Official Repository</name>
+			<url>http://repo1.maven.org/maven2</url>
+			<releases>
+				<enabled>true</enabled>
+			</releases>
+			<snapshots>
+				<enabled>false</enabled>
+			</snapshots>
+		</repository>
+
+		<repository>
+			<id>code.alibabatech.com</id>
+			<name>alibaba Repository</name>
+			<url>http://code.alibabatech.com/mvn/releases/</url>
+			<releases>
+				<enabled>true</enabled>
+			</releases>
+			<snapshots>
+				<enabled>false</enabled>
+			</snapshots>
+		</repository>
+		<repository>
+			<id>pay</id>
+			<url>http://192.168.7.246:8081/nexus/index.html</url>
+			<releases>
+				<enabled>true</enabled>
+			</releases>
+			<snapshots>
+				<enabled>false</enabled>
+			</snapshots>
+		</repository>
+		<repository>
+			<id>code.taobao.org</id>
+			<name>Repository of code.taobao.org</name>
+			<url>http://code.taobao.org/mvn/repository</url>
+		</repository>
+	</repositories>
+
+	<pluginRepositories>
+		<pluginRepository>
+			<id>offical</id>
+			<name>Maven Official Repository</name>
+			<url>http://repo1.maven.org/maven2</url>
+			<releases>
+				<enabled>true</enabled>
+			</releases>
+			<snapshots>
+				<enabled>false</enabled>
+			</snapshots>
+		</pluginRepository>
+		<pluginRepository>
+			<id>code.taobao.org</id>
+			<name>Repository of code.taobao.org</name>
+			<url>http://code.taobao.org/mvn/repository</url>
+			<releases>
+				<enabled>true</enabled>
+			</releases>
+			<snapshots>
+				<enabled>false</enabled>
+			</snapshots>
+		</pluginRepository>
+	</pluginRepositories>
+  
+  
+  <build>
+    <finalName>async_notify</finalName>
+<!--     <resources> -->
+<!--       <resource> -->
+<!--         <directory>src/main/java</directory> -->
+<!--         <includes> -->
+<!--           <include>**/*.properties</include> -->
+<!--         </includes> -->
+<!--       </resource> -->
+<!--       <resource> -->
+<!--         <directory>src/main/resources</directory> -->
+<!--       </resource> -->
+<!--     </resources> -->
+    
+  </build>
+  
+</project>
